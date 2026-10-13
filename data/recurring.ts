@@ -2,6 +2,11 @@ import type { Recurring } from './model.ts';
 
 // Each entry: facts only, checked against `source` on the `confirmed` date.
 // price: 0 = free to attend/watch (paid seating may exist), null = unknown.
+const KITANO = 'https://kitanotenmangu.or.jp/event/';
+const KIYOMIZU = 'https://www.kiyomizudera.or.jp/event/';
+const KAMIGAMO = 'https://www.kamigamojinja.jp/';
+const SUMIYOSHI = 'https://www.sumiyoshitaisha.net/events/special.html';
+
 export const recurring: Recurring[] = [
   // --- Markets ---
   { id: 'kobo-ichi', venue: 'toji', title: '弘法市', titleEn: 'Kōbō-ichi Market', category: 'market',
@@ -47,6 +52,80 @@ export const recurring: Recurring[] = [
     rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=1', price: null, source: 'https://kitanotenmangu.or.jp/event/', confirmed: '2026-10-13' },
   { id: 'yabusame-shimogamo', venue: 'shimogamo', title: '騎射流鏑馬神事', titleEn: 'Yabusame horseback archery', category: 'shrine_temple',
     rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=3', price: null, source: 'https://www.shimogamo-jinja.or.jp/saiji', confirmed: '2026-10-13' },
+  // 北野天満宮 (batch 2)
+  { id: 'saitan-kitano', venue: 'kitano', title: '歳旦祭', titleEn: 'New Year Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'raijo-kitano', venue: 'kitano', title: '雷除大祭', titleEn: 'Thunder Protection Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1', startTime: '04:00', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'gotanshin-kitano', venue: 'kitano', title: '御誕辰祭・大茅の輪くぐり', titleEn: 'Birthday Festival & giant Chinowa ring', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=25', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'nagoshi-kitano', venue: 'kitano', title: '夏越の大祓', titleEn: 'Summer Purification', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', startTime: '16:00', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'reisai-kitano', venue: 'kitano', title: '例祭（北野祭）', titleEn: 'Kitano Grand Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=4', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'yoko-sai', venue: 'kitano', title: '余香祭', titleEn: 'Yokō Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=29', price: 0, source: KITANO, confirmed: '2026-10-13' },
+  { id: 'ofukuume-kitano', venue: 'kitano', title: '大福梅の授与（事始め）', titleEn: 'Ōfuku-ume plum charm distribution', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=13', price: null, source: KITANO, confirmed: '2026-10-13' },
+
+  // 清水寺: dates from its 2026 年中行事 list
+  { id: 'shusho-e-kiyomizu', venue: 'kiyomizudera', title: '修正会', titleEn: 'New Year Shushō-e', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1', days: 7, price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'shuni-e-kiyomizu', venue: 'kiyomizudera', title: '修二会', titleEn: 'Shuni-e', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=1', days: 3, price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'nehan-e-kiyomizu', venue: 'kiyomizudera', title: '涅槃会', titleEn: 'Nirvana Day', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=2;BYMONTHDAY=15', price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  ...[['03', 15], ['04', 3], ['10', 15]].map(([m, d]): Recurring => ({
+    id: `seiryu-e-${m}`, venue: 'kiyomizudera', title: '青龍会', titleEn: 'Seiryū-e Blue Dragon procession', category: 'shrine_temple',
+    rrule: `FREQ=YEARLY;BYMONTH=${Number(m)};BYMONTHDAY=${d}`, startTime: '14:00', endTime: '15:30', price: 0,
+    source: KIYOMIZU, confirmed: '2026-10-13' })),
+  { id: 'kotan-e-kiyomizu', venue: 'kiyomizudera', title: '降誕会', titleEn: "Buddha's Birthday", category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=8', price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'sennichi-kiyomizu', venue: 'kiyomizudera', title: '千日詣り・本堂内々陣特別拝観', titleEn: 'Sennichi-mairi & inner sanctum viewing', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=9', days: 8, startTime: '09:00', endTime: '17:00', price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'jizobon-kiyomizu', venue: 'kiyomizudera', title: '地蔵盆会', titleEn: 'Jizō-bon', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=23', price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'butsumyo-kiyomizu', venue: 'kiyomizudera', title: '仏名会', titleEn: 'Butsumyō-e', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=1', days: 3, price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+  { id: 'joya-kiyomizu', venue: 'kiyomizudera', title: '除夜の鐘', titleEn: "New Year's Eve bell", category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=31', price: null, source: KIYOMIZU, confirmed: '2026-10-13' },
+
+  // 住吉大社
+  { id: 'otaue-sumiyoshi', venue: 'sumiyoshi', title: '御田植神事', titleEn: 'Rice Planting Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=14', startTime: '13:00', price: 0, source: SUMIYOSHI, confirmed: '2026-10-13' },
+  { id: 'sumiyoshi-matsuri', venue: 'sumiyoshi', title: '住吉祭（宵宮祭・例大祭・頓宮祭）', titleEn: 'Sumiyoshi Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=30', days: 3, price: 0, source: SUMIYOSHI, confirmed: '2026-10-13' },
+  { id: 'takaranoichi', venue: 'sumiyoshi', title: '宝之市神事', titleEn: 'Takara-no-ichi Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=17', price: 0, source: SUMIYOSHI, confirmed: '2026-10-13' },
+
+  // 上賀茂神社 (祭事暦 on the homepage)
+  { id: 'hakuba-kamigamo', venue: 'kamigamo', title: '白馬奏覧神事', titleEn: 'White Horse Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=7', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'busha-kamigamo', venue: 'kamigamo', title: '武射神事', titleEn: 'Busha archery ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=16', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'kyokusui-kamigamo', venue: 'kamigamo', title: '賀茂曲水宴', titleEn: 'Kamo Kyokusui poetry banquet', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=4;BYDAY=2SU', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'kurabeuma-kamigamo', venue: 'kamigamo', title: '賀茂競馬', titleEn: 'Kamo Horse Race', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=5', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'nagoshi-kamigamo', venue: 'kamigamo', title: '夏越大祓式', titleEn: 'Summer Purification', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'mitoshiro-kamigamo', venue: 'kamigamo', title: '賀茂御戸代能', titleEn: 'Mitoshiro Noh', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=1', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'kanname-kamigamo', venue: 'kamigamo', title: '神嘗奉祝祭', titleEn: 'Kanname celebration', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=17', startTime: '10:00', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'kasagake-kamigamo', venue: 'kamigamo', title: '笠懸神事', titleEn: 'Kasagake horseback archery', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=10;BYDAY=3SU', startTime: '13:00', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  { id: 'niiname-kamigamo', venue: 'kamigamo', title: '新嘗祭', titleEn: 'Niiname harvest festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=23', price: null, source: KAMIGAMO, confirmed: '2026-10-13' },
+  // 伏見稲荷大社 (fixed-date rites; rule-based ones are in dated.ts)
+  { id: 'kanko-inari', venue: 'fushimi-inari', title: '稲荷祭 還幸祭', titleEn: 'Inari Festival return procession', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=3', price: 0, source: 'https://inari.jp/rite/', confirmed: '2026-10-13' },
+  { id: 'hitaki-inari', venue: 'fushimi-inari', title: '火焚祭', titleEn: 'Hitaki Fire Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=8', price: null, source: 'https://inari.jp/rite/', confirmed: '2026-10-13' },
+  // 難波八阪神社
+  { id: 'tsunahiki-namba', venue: 'namba-yasaka', title: '綱引神事', titleEn: 'Tug-of-war ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYDAY=3SU', price: null, source: 'https://nambayasaka.jp/?page_id=145', confirmed: '2026-10-13' },
+
   { id: 'eto-kigansai', venue: 'shimogamo', title: 'えと祈願祭', titleEn: 'Eto Prayer Festival', category: 'shrine_temple',
     rrule: 'FREQ=YEARLY;BYMONTH=10;BYDAY=3SU', price: null, source: 'https://www.shimogamo-jinja.or.jp/saiji/etokigansai', confirmed: '2026-10-13' },
 ];

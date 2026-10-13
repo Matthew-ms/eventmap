@@ -12,5 +12,10 @@ export const venues: Venue[] = [
   { id: 'okazaki-park', name: '岡崎公園', nameEn: 'Okazaki Park', aliases: ['平安神宮前'], lat: 35.014297, lon: 135.781815 },
   { id: 'higashihonganji-ryokuchi', name: '東本願寺前市民緑地', nameEn: 'Higashi Honganji front garden', aliases: ['東本願寺'], lat: 34.991413, lon: 135.758575 },
   { id: 'kiyomizuyaki-danchi', name: '清水焼団地', nameEn: 'Kiyomizu-yaki Danchi', aliases: ['清水焼の郷'], lat: 34.979778, lon: 135.794296 },
-  { id: 'imamiya',name: '今宮戎神社', nameEn: 'Imamiya Ebisu Shrine', aliases: ['えべっさん'], lat: 34.654907, lon: 135.502472, url: 'https://www.imamiya-ebisu.jp/' },
+  { id: 'kiyomizudera', name: '清水寺', nameEn: 'Kiyomizu-dera', aliases: ['Kiyomizudera'], lat: 34.99588, lon: 135.783142, url: 'https://www.kiyomizudera.or.jp/' },
+  { id: 'sumiyoshi', name: '住吉大社', nameEn: 'Sumiyoshi Taisha', aliases: ['すみよっさん', 'Sumiyoshi'], lat: 34.612617, lon: 135.491318, url: 'https://www.sumiyoshitaisha.net/' },
+  { id: 'imamiya', name:'今宮戎神社', nameEn: 'Imamiya Ebisu Shrine', aliases: ['えべっさん'], lat: 34.654907, lon: 135.502472, url: 'https://www.imamiya-ebisu.jp/' },
+  { id: 'kamigamo', name: '上賀茂神社', nameEn: 'Kamigamo Shrine', aliases: ['賀茂別雷神社'], lat: 35.060097, lon: 135.751495, url: 'https://www.kamigamojinja.jp/' },
+  { id: 'fushimi-inari', name: '伏見稲荷大社', nameEn: 'Fushimi Inari Taisha', aliases: ['お稲荷さん', 'Fushimi Inari'], lat: 34.967037, lon: 135.773499, url: 'https://inari.jp/' },
+  { id: 'namba-yasaka', name: '難波八阪神社', nameEn: 'Namba Yasaka Shrine', aliases: ['Namba Yasaka'], lat: 34.661442, lon: 135.496399, url: 'https://nambayasaka.jp/' },
 ];

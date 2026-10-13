@@ -40,4 +40,17 @@ export const sources: Source[] = [
   // --- Kyoto City Fire Bureau 指定催し notices (京都市公報). Official list of large events with stalls. ---
   { id: 'kyoto-notice-r080821', kind: 'notice', name: '京都市消防局告示第6号 (2026-08-21)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0808/0821/0821_3.pdf', checked: '2026-10-13' },
   { id: 'kyoto-notice-r080918', kind: 'notice', name: '京都市消防局告示第7号 (2026-09-18)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0809/0918/0918_12.pdf', checked: '2026-10-13' },
+
+  // --- Shrine / temple (batch 2, 2026-10-13) ---
+  { id: 'kiyomizu-event', kind: 'page', name: '清水寺 年中行事', url: 'https://www.kiyomizudera.or.jp/event/', checked: '2026-10-13' },
+  { id: 'sumiyoshi-special', kind: 'page', name: '住吉大社 特別な祭', url: 'https://www.sumiyoshitaisha.net/events/special.html', checked: '2026-10-13' },
+  { id: 'toji-autumn-2026', kind: 'page', name: '東寺 紅葉ライトアップ 2026', url: 'https://toji.or.jp/exhibition/2026_autumn/', checked: '2026-10-13' },
+  // ponytail: homepage, so the watcher may report news churn; switch to a dedicated もみじ苑 page if it does.
+  { id: 'kitano-home', kind: 'page', name: '北野天満宮 トップ (もみじ苑)', url: 'https://kitanotenmangu.or.jp/', checked: '2026-10-13' },
+  { id: 'kamigamo-home', kind: 'page', name: '上賀茂神社 祭事暦', url: 'https://www.kamigamojinja.jp/', checked: '2026-10-13' },
+  { id: 'inari-rite', kind: 'page', name: '伏見稲荷大社 祭事', url: 'https://inari.jp/rite/', checked: '2026-10-13' },
+  { id: 'inari-rite-02', kind: 'page', name: '伏見稲荷大社 祭事 2月', url: 'https://inari.jp/rite/?month=2%E6%9C%88', checked: '2026-10-13' },
+  { id: 'inari-rite-04', kind: 'page', name: '伏見稲荷大社 祭事 4月', url: 'https://inari.jp/rite/?month=4%E6%9C%88', checked: '2026-10-13' },
+  { id: 'inari-rite-07', kind: 'page', name: '伏見稲荷大社 祭事 7月', url: 'https://inari.jp/rite/?month=7%E6%9C%88', checked: '2026-10-13' },
+  { id: 'namba-yasaka-tsunahiki', kind: 'page', name: '難波八阪神社 綱引神事', url: 'https://nambayasaka.jp/?page_id=145', checked: '2026-10-13' },
 ];

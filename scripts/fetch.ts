@@ -24,7 +24,12 @@ export async function politeFetch(url: string): Promise<Response> {
     // No robots.txt (or unreachable) means no restrictions.
     robots.set(origin, robotsParser(origin + '/robots.txt', res?.ok ? await res.text() : ''));
   }
-  if (robots.get(origin)!.isDisallowed(url, USER_AGENT)) throw new Error(`robots.txt disallows ${url}`);
+  const rules = robots.get(origin)!;
+  if (rules.isDisallowed(url, USER_AGENT)) throw new Error(`robots.txt disallows ${url}`);
+  // Our data entry is AI-assisted, so a site that blocks AI crawlers is treated as opting out of this project too.
+  if (rules.isDisallowed(url, 'ClaudeBot') || rules.isDisallowed(url, 'GPTBot')) {
+    throw new Error(`robots.txt opts out of AI crawlers for ${url}: stop using this source`);
+  }
   await throttle(host);
   const res = await get(url);
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
