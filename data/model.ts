@@ -40,6 +40,7 @@ export interface Dated extends EventFields {
   start: string;
   end?: string;
   status?: Status;
+  sourceType?: Event['sourceType']; // default 'manual'
 }
 
 /** One occurrence, as written to public/events.json. Dates are Japan dates 'YYYY-MM-DD'. */
@@ -64,6 +65,7 @@ export interface EventData {
   generated: string;
   venues: Record<string, Venue>;
   events: Event[];
+  attribution: string[]; // HTML credits required by source licences
 }
 
 /** Today's date in Japan, whatever the viewer's timezone. */

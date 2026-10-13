@@ -1,5 +1,12 @@
 # Japan Event Map App — Project Brief
 
+## Working rules for Claude (read first)
+- **Keep the planning files current without being asked.** Whenever a phase or step finishes, the user adds or changes steps, or a plan decision is made, update in the same session:
+  - `PLAN.md` → the **Status** table at the top (state, date, what is still open) and any changed phase steps.
+  - `CLAUDE.md` → **Decisions** (decision + why) and **Data source findings** (anything learned about a source).
+- Do it before reporting the work as done, so the next session can start from these files alone.
+- Use absolute dates (e.g. 2026-10-13), never "today" or "next week".
+
 ## Goal
 A map app showing events across Japan as pins, so users can find events they're interested in without searching site by site. Focus includes small/indie events that big aggregators miss.
 
@@ -82,11 +89,12 @@ Venues, shrines, malls, and market organizers publish schedule pages with a know
 One region, using connpass + municipal open data (no legal grey areas), then expand.
 
 ## Data source findings (checked 2026-10-11)
-- **Osaka Prefecture イベント一覧** (BODIK id `270008_event`): ~67 events, prefectural parks only, all with lat/lon, last updated 2026-10-05, covers ~2.5 months ahead (update frequency unknown). Shift-JIS CSV. Usable.
+- **Osaka Prefecture イベント一覧** (BODIK id `270008_event`): ~67 events, prefectural parks only, all with lat/lon, last updated 2026-10-05, covers ~2.5 months ahead (update frequency unknown). Shift-JIS CSV. Usable. Fetched daily since 2026-10-13 (`scripts/sources/osaka-parks.ts`); on that date: 52 events at 15 parks, and the CSV contained one row repeated verbatim (now dropped). Price column is empty → price unknown.
 - **Higashiōsaka イベント一覧** (BODIK `272272_12`): 24 rows, mostly seminars, no location. Not useful.
 - No other Osaka/Kyoto municipality publishes イベント一覧 on BODIK or the national e-Gov catalog. Kyoto City portal has only a children's-centre calendar; Kyoto Prefecture has no event dataset.
 - **ORDEN / ODPO** (Osaka platform with prefecture + municipal events): registration is for businesses/organizations; API spec not public. Unexplored.
 - **京都観光Navi** (ja.kyoto.travel): 700+ recurring events/year. Not open data; terms not yet checked.
+- **Shrine/temple official sites** (checked 2026-10-13): 東寺, 北野天満宮, 四天王寺, 平安神宮, 今宮戎, 下鴨神社 all allow crawling in robots.txt. 北野天満宮 `/event/` and 下鴨神社 `/saiji` list many fixed-date annual events: good Phase C material. 八坂神社 (503) and 大阪天満宮 tenjinsan.com (403) refused automated reads: verify by hand.
 
 ## Decisions
 Filled in during planning. Each entry: the decision, and why.
@@ -99,5 +107,6 @@ Filled in during planning. Each entry: the decision, and why.
 - **Two views: map + list**, sharing one filtered set (date, category, free, keyword). List follows the map area.
 - **Event card design belongs to the user.** `src/card.ts` is a plain placeholder until they redesign it.
 - **No scraped or hotlinked event posters/photos.** Images only from Wikimedia Commons (venue photos, with credit), licensed open data, or organiser uploads.
+- **Every source is registered in `data/sources.ts`; all fetching goes through `scripts/fetch.ts`** (honest User-Agent, robots.txt, 1 req/s/host). Other sites are fetched only by the daily scheduled job, never on push. Snapshots are committed to `data/fetched/` (git = last good copy); problems and changed source pages become a GitHub issue.
 - **Plan lives in `PLAN.md`.** Phases A (map/list) → B (reliable sources) → C (coverage per type).
 - **v1 has no database or server.** A scheduled job builds one data file, the map reads it directly. Add PostgreSQL when user submissions arrive (first time the app must save user input).

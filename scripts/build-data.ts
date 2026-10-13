@@ -1,21 +1,24 @@
-// Builds public/events.json from the hand-entered data files.
+// Builds public/events.json from hand-entered data and fetched snapshots. Run `npm run check` first.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { todayJST, type EventData } from '../data/model.ts';
-import { venues } from '../data/venues.ts';
-import { recurring } from '../data/recurring.ts';
-import { dated } from '../data/dated.ts';
+import { sources } from '../data/sources.ts';
+import { dated, recurring, venues } from './load.ts';
 import { expand } from './expand.ts';
 
-const byId = Object.fromEntries(venues.map((v) => [v.id, v]));
-const unknown = [...recurring, ...dated].filter((e) => !byId[e.venue]).map((e) => `${e.id} → ${e.venue}`);
-if (unknown.length) throw new Error(`Unknown venue: ${unknown.join(', ')}`);
-
 const events = expand(recurring, dated, todayJST());
-const data: EventData = { generated: new Date().toISOString(), venues: byId, events };
+const used = new Set(events.map((e) => e.venueId));
+const data: EventData = {
+  generated: new Date().toISOString(),
+  venues: Object.fromEntries(venues.filter((v) => used.has(v.id)).map((v) => [v.id, v])),
+  events,
+  attribution: sources.flatMap((s) => (s.attribution ? [s.attribution] : [])),
+};
 
 mkdirSync('public', { recursive: true });
 writeFileSync('public/events.json', JSON.stringify(data));
 
-const counts: Record<string, number> = {};
-for (const e of events) counts[e.category] = (counts[e.category] ?? 0) + 1;
-console.log(`events.json: ${events.length} occurrences at ${venues.length} venues`, counts);
+const count = (key: 'category' | 'sourceType') =>
+  events.reduce<Record<string, number>>((acc, e) => ({ ...acc, [e[key]]: (acc[e[key]] ?? 0) + 1 }), {});
+console.log(`events.json: ${events.length} occurrences at ${used.size} venues`);
+console.log('  by category:', count('category'));
+console.log('  by source:  ', count('sourceType'));

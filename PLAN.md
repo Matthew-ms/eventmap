@@ -1,7 +1,20 @@
 # EventMap v1 — refined plan
 
+## Status (update whenever a step finishes or the plan changes)
+Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Matthew-ms/eventmap
+
+| Phase | State | Notes |
+|---|---|---|
+| A — Map and list view | ✅ Done 2026-10-13 | Seed: 15 recurring + 2 dated events at 6 venues. "Near me" not yet tested on a real phone (user to try). |
+| B — Reliable sources | ✅ Built 2026-10-13 | Source registry, Osaka parks CSV (52 events, 15 parks), page-change watcher, `npm run check`. **Open:** first nightly run (03:00 JST 2026-10-14) not yet verified: snapshot commit + issue creation. |
+| C — Coverage per type | ⏳ Next | Start with markets, then shrine/temple, festivals. Yasaka (八坂神社) and Osaka Tenmangū (tenjinsan.com) block automated reads: check those by hand. |
+| Images | ⏳ With C | Wikimedia Commons venue photos. Osaka parks `画像` column: licence of images still unconfirmed. |
+| Fireworks | ⏳ Apr–Jun 2027 | |
+
+Known follow-ups: Osaka parks category is a keyword guess (`categorize()` in `scripts/sources/osaka-parks.ts`); GitHub warns some Pages actions still target Node 20.
+
 ## Context
-The project folder holds only `CLAUDE.md`, which contains the brief, the data-source findings and the decisions so far. There's no code yet.
+When this plan was written (2026-10-13) the project held only `CLAUDE.md`. The brief, data-source findings and decisions live there.
 
 The user set the order of work:
 1. A map view that works properly and is easy to read.

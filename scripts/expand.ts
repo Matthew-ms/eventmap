@@ -43,7 +43,7 @@ function occurrence(e: Recurring | Dated, start: string, end: string, status: Ev
     endTime: e.endTime,
     price: e.price,
     source: e.source,
-    sourceType: 'manual',
+    sourceType: ('sourceType' in e && e.sourceType) || 'manual',
     status,
     confirmed: e.confirmed,
   };

@@ -2,3 +2,4 @@ node_modules/
 dist/
 public/events.json
 .claude/settings.local.json
+source-report.md

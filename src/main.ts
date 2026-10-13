@@ -97,7 +97,7 @@ const map = new maplibregl.Map({
   style: 'https://tiles.openfreemap.org/styles/positron',
   bounds: [[135.35, 34.55], [135.85, 35.1]], // Osaka ↔ Kyoto
   fitBoundsOptions: { padding: 20 },
-  attributionControl: { compact: true },
+  attributionControl: { compact: true, customAttribution: data.attribution },
 });
 map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
 const geolocate = new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true } });
