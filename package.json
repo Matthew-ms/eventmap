@@ -1,0 +1,21 @@
+{
+  "name": "eventmap",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.ts",
+    "dev": "npm run data && vite",
+    "build": "npm run data && vite build --base=./",
+    "test": "node --test scripts/expand.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.14.0",
+    "rrule": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}

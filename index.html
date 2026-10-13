@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EventMap 関西</title>
+  </head>
+  <body data-view="map">
+    <header>
+      <div class="row">
+        <input id="q" type="search" data-i18n-placeholder="search" autocomplete="off" />
+        <button id="lang" type="button" class="chip" data-i18n="otherLang"></button>
+      </div>
+      <div class="row chips" id="dates"></div>
+      <div class="row chips" id="cats"></div>
+    </header>
+    <main>
+      <div id="map"></div>
+      <section id="list" aria-live="polite"></section>
+    </main>
+    <nav id="views">
+      <button type="button" data-view="map"><span data-i18n="map"></span></button>
+      <button type="button" data-view="list"><span data-i18n="list"></span> <span id="list-count"></span></button>
+    </nav>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
