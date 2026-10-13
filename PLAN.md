@@ -7,7 +7,7 @@ Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Ma
 |---|---|---|
 | A — Map and list view | ✅ Done 2026-10-13 | Seed: 15 recurring + 2 dated events at 6 venues. "Near me" not yet tested on a real phone (user to try). |
 | B — Reliable sources | ✅ Built 2026-10-13 | Source registry, Osaka parks CSV (52 events, 15 parks), page-change watcher, `npm run check`. **Open:** first nightly run (03:00 JST 2026-10-14) not yet verified: snapshot commit + issue creation. |
-| C — Coverage per type | ⏳ Next | Start with markets, then shrine/temple, festivals. Yasaka (八坂神社) and Osaka Tenmangū (tenjinsan.com) block automated reads: check those by hand. |
+| C — Coverage per type | 🔄 In progress | **Batch 1 markets entered 2026-10-13, awaiting user spot-check.** 11 market series (Kyoto 9, Osaka 2) + Osaka park markets; target ≥ 20 not met: Osaka has few official market sources (お初天神 蚤の市 is Instagram-only; 花園中央公園 フリマ only on event sites). New: Kyoto gazette 指定催し notices as official source + daily watcher for new notices (`scripts/sources/kyoto-notices.ts`, first live run 2026-10-14 unverified). Next: shrine/temple batch, then festivals. Yasaka (八坂神社) and Osaka Tenmangū (tenjinsan.com) block automated reads: check those by hand. |
 | Images | ⏳ With C | Wikimedia Commons venue photos. Osaka parks `画像` column: licence of images still unconfirmed. |
 | Fireworks | ⏳ Apr–Jun 2027 | |
 

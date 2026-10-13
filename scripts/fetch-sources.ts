@@ -1,12 +1,14 @@
 // Daily job (GitHub Actions, schedule only):
 //  1. refresh open-data snapshots in data/fetched/ (on failure the last committed snapshot stays)
-//  2. hash the text of each hand-read source page; report pages that changed since last run
+//  2. look for new Kyoto 指定催し notices in the city gazette
+//  3. hash the text of each hand-read source page; report pages that changed since last run
 // Anything worth a human look is written to source-report.md, which the workflow turns into an issue.
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { sources } from '../data/sources.ts';
 import { politeFetch } from './fetch.ts';
 import { fetchOsakaParks } from './sources/osaka-parks.ts';
+import { checkKyotoNotices, type NoticeState } from './sources/kyoto-notices.ts';
 
 const DIR = 'data/fetched';
 const HASHES = `${DIR}/page-hashes.json`;
@@ -25,7 +27,19 @@ try {
   report.push(`- **osaka-parks** fetch failed, last snapshot kept: ${message(e)}`);
 }
 
-// --- 2. Hand-read pages ---
+// --- 2. New Kyoto 指定催し notices (entered by hand) ---
+const NOTICES = `${DIR}/kyoto-notices.json`;
+const noticeState: NoticeState = existsSync(NOTICES) ? JSON.parse(readFileSync(NOTICES, 'utf8')) : { seenDays: [], notices: [] };
+try {
+  for (const url of await checkKyotoNotices(noticeState)) {
+    report.push(`- **New Kyoto 指定催し notice**: ${url}. Add its events, registering the PDF as kind 'notice' in data/sources.ts.`);
+  }
+  writeFileSync(NOTICES, JSON.stringify(noticeState, null, 1) + '\n');
+} catch (e) {
+  report.push(`- **Kyoto gazette** could not be checked: ${message(e)}`);
+}
+
+// --- 3. Hand-read pages ---
 const hashes: Record<string, string> = existsSync(HASHES) ? JSON.parse(readFileSync(HASHES, 'utf8')) : {};
 for (const s of sources.filter((s) => s.kind === 'page')) {
   try {

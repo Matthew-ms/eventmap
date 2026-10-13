@@ -94,6 +94,8 @@ One region, using connpass + municipal open data (no legal grey areas), then exp
 - No other Osaka/Kyoto municipality publishes イベント一覧 on BODIK or the national e-Gov catalog. Kyoto City portal has only a children's-centre calendar; Kyoto Prefecture has no event dataset.
 - **ORDEN / ODPO** (Osaka platform with prefecture + municipal events): registration is for businesses/organizations; API spec not public. Unexplored.
 - **京都観光Navi** (ja.kyoto.travel): 700+ recurring events/year. Not open data; terms not yet checked.
+- **Kyoto City Fire Bureau 指定催し notices** (京都市公報, checked 2026-10-13): the city gazette publishes a 消防局告示 every month or so, listing each large event with stalls (markets, festivals, 縁日) with exact dates or monthly rule, validity window and address. Official, and the best Kyoto source found. Path `www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r{Reiwa YY}{MM}/{MMDD}/mokuji2.html`; robots.txt allows all; the default curl UA gets 403, our EventMapBot UA works. PDFs need reading by eye (pdftotext fails on the fonts). The monthly 弘法市/天神市 designations are renewed each July (2026: notice 第4号 of 2026-07-24).
+- **手づくり市** (tedukuri-ichi.com): official organiser of 百万遍 (15th, not Aug) and 梅小路 (1st Sat, not Jan/May/Aug). **平安蚤の市** (heiannominoichi.jp): date moves monthly, published on the homepage. Osaka has no equivalent gazette source found yet.
 - **Shrine/temple official sites** (checked 2026-10-13): 東寺, 北野天満宮, 四天王寺, 平安神宮, 今宮戎, 下鴨神社 all allow crawling in robots.txt. 北野天満宮 `/event/` and 下鴨神社 `/saiji` list many fixed-date annual events: good Phase C material. 八坂神社 (503) and 大阪天満宮 tenjinsan.com (403) refused automated reads: verify by hand.
 
 ## Decisions
@@ -108,5 +110,7 @@ Filled in during planning. Each entry: the decision, and why.
 - **Event card design belongs to the user.** `src/card.ts` is a plain placeholder until they redesign it.
 - **No scraped or hotlinked event posters/photos.** Images only from Wikimedia Commons (venue photos, with credit), licensed open data, or organiser uploads.
 - **Every source is registered in `data/sources.ts`; all fetching goes through `scripts/fetch.ts`** (honest User-Agent, robots.txt, 1 req/s/host). Other sites are fetched only by the daily scheduled job, never on push. Snapshots are committed to `data/fetched/` (git = last good copy); problems and changed source pages become a GitHub issue.
+- **Rules with a known end use `UNTIL`** (e.g. a fire-designation window). `npm run check` warns when one has run out instead of failing the build.
+- **`price: 0` means open-access** (temple grounds, public parks/streets): free to attend even if stalls sell things. Use `null` when the source gives no basis.
 - **Plan lives in `PLAN.md`.** Phases A (map/list) → B (reliable sources) → C (coverage per type).
 - **v1 has no database or server.** A scheduled job builds one data file, the map reads it directly. Add PostgreSQL when user submissions arrive (first time the app must save user input).

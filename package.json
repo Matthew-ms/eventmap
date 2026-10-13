@@ -8,7 +8,7 @@
     "check": "node scripts/check.ts",
     "dev": "npm run data && vite",
     "build": "npm run data && vite build --base=./",
-    "test": "node --test scripts/expand.test.ts scripts/sources/osaka-parks.test.ts",
+    "test": "node --test \"scripts/**/*.test.ts\"",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

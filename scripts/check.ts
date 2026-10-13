@@ -38,7 +38,11 @@ for (const e of [...recurring, ...dated]) {
 for (const r of recurring) {
   try {
     const rule = new RRule({ ...RRule.parseString(r.rrule), dtstart: new Date(today + 'T00:00:00Z') });
-    if (!rule.after(new Date(today + 'T00:00:00Z'), true)) errors.push(`${r.id}: rule "${r.rrule}" never occurs again`);
+    if (!rule.after(new Date(today + 'T00:00:00Z'), true)) {
+      // A rule with UNTIL has simply run out (e.g. a yearly designation); one without it is a typo.
+      if (/UNTIL=/.test(r.rrule)) warnings.push(`${r.id}: rule ended (${r.rrule}); renew it from the latest source`);
+      else errors.push(`${r.id}: rule "${r.rrule}" never occurs again`);
+    }
   } catch (e) {
     errors.push(`${r.id}: rule "${r.rrule}" does not parse (${e instanceof Error ? e.message : e})`);
   }

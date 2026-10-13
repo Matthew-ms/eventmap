@@ -12,6 +12,16 @@ export const recurring: Recurring[] = [
     rrule: 'FREQ=MONTHLY;BYMONTHDAY=21', price: 0, source: 'https://www.shitennoji.or.jp/event/index.html', confirmed: '2026-10-13' },
   { id: 'taishi-e', venue: 'shitennoji', title: '太子会', titleEn: 'Taishi-e Fair', category: 'market',
     rrule: 'FREQ=MONTHLY;BYMONTHDAY=22', price: 0, source: 'https://www.shitennoji.or.jp/event/index.html', confirmed: '2026-10-13' },
+  // UNTIL = end of the Kyoto Fire Bureau designation; renew from the next year's notice.
+  { id: 'garakuta-ichi', venue: 'toji', title: '東寺ガラクタ市', titleEn: 'Tō-ji Garakuta Flea Market', category: 'market',
+    rrule: 'FREQ=MONTHLY;BYDAY=1SU;UNTIL=20270801', price: 0,
+    source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0808/0821/0821_3.pdf', confirmed: '2026-10-13' },
+  { id: 'hyakumanben-tezukuri', venue: 'chionji', title: '百万遍さんの手づくり市', titleEn: 'Hyakumanben Handicraft Market', category: 'market',
+    rrule: 'FREQ=MONTHLY;BYMONTHDAY=15;BYMONTH=1,2,3,4,5,6,7,9,10,11,12', startTime: '08:00', endTime: '16:00', price: 0, // no market in August
+    source: 'https://www.tedukuri-ichi.com/', confirmed: '2026-10-13' },
+  { id: 'umekoji-tezukuri', venue: 'umekoji-park', title: '梅小路公園手づくり市', titleEn: 'Umekōji Park Handicraft Market', category: 'market',
+    rrule: 'FREQ=MONTHLY;BYDAY=1SA;BYMONTH=2,3,4,6,7,9,10,11,12', startTime: '09:00', endTime: '16:00', price: 0, // not Jan, May, Aug
+    source: 'https://www.tedukuri-ichi.com/', confirmed: '2026-10-13' },
 
   // --- Festivals ---
   { id: 'jidai-matsuri', venue: 'heian', title: '時代祭', titleEn: 'Jidai Matsuri', category: 'festival',
