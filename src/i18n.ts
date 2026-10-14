@@ -8,14 +8,14 @@ const dict = {
     search: 'イベント・場所を検索', today: '今日', weekend: '今週末', days7: '7日間', days30: '30日間', pickDate: '日付',
     freeOnly: '無料のみ', map: '地図', list: 'リスト', free: '無料', officialSite: '公式サイト',
     cancelled: '中止', postponed: '延期', noEvents: 'この範囲に該当するイベントはありません。地図を動かすか、条件を変えてください。',
-    otherLang: 'EN',
+    otherLang: 'EN', photo: '写真',
     festival: '祭り', fireworks: '花火', market: '市・マーケット', shrine_temple: '寺社行事', department_store: '催事', concert: 'ライブ', other: 'その他',
   },
   en: {
     search: 'Search events or places', today: 'Today', weekend: 'This weekend', days7: '7 days', days30: '30 days', pickDate: 'Date',
     freeOnly: 'Free only', map: 'Map', list: 'List', free: 'Free', officialSite: 'Official site',
     cancelled: 'Cancelled', postponed: 'Postponed', noEvents: 'No events match here. Move the map or change the filters.',
-    otherLang: '日本語',
+    otherLang: '日本語', photo: 'Photo',
     festival: 'Festival', fireworks: 'Fireworks', market: 'Market', shrine_temple: 'Shrine & temple', department_store: 'Store event', concert: 'Concert', other: 'Other',
   },
 } satisfies Record<Lang, Record<string, string>>;

@@ -12,7 +12,7 @@ export interface Venue {
   lat: number;
   lon: number;
   url?: string;
-  wikidata?: string;
+  photo?: { file: string; author: string; licence: string }; // Wikimedia Commons file name
 }
 
 interface EventFields {

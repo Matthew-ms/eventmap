@@ -39,3 +39,23 @@ export function renderCard(e: Event, v: Venue, opts: { showVenue?: boolean; dist
   <a href="${safeUrl(e.source)}" target="_blank" rel="noopener">${t('officialSite')} ↗</a>
 </article>`;
 }
+
+const LICENCES: Record<string, string> = {
+  CC0: 'https://creativecommons.org/publicdomain/zero/1.0/',
+  'CC BY 2.5': 'https://creativecommons.org/licenses/by/2.5/',
+  'CC BY-SA 2.5': 'https://creativecommons.org/licenses/by-sa/2.5/',
+  'CC BY-SA 3.0': 'https://creativecommons.org/licenses/by-sa/3.0/',
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+};
+
+/** Venue photo from Wikimedia Commons with the credit its licence requires (author, licence, source). */
+export function renderVenuePhoto(v: Venue) {
+  if (!v.photo) return '';
+  const { file, author, licence } = v.photo;
+  const name = encodeURIComponent(file.replaceAll(' ', '_'));
+  const licenceLink = LICENCES[licence] ? `<a href="${LICENCES[licence]}" target="_blank" rel="noopener">${esc(licence)}</a>` : esc(licence);
+  return `<figure class="venue-photo">
+  <img src="https://commons.wikimedia.org/wiki/Special:FilePath/${name}?width=640" alt="${esc(venueName(v))}" loading="lazy" width="640" height="360">
+  <figcaption>${t('photo')}: <a href="https://commons.wikimedia.org/wiki/File:${name}" target="_blank" rel="noopener">${esc(author)}</a> / ${licenceLink}</figcaption>
+</figure>`;
+}

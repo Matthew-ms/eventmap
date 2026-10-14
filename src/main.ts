@@ -5,7 +5,7 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './style.css';
 import { CATEGORIES, addDays, todayJST, type Category, type Event, type EventData } from '../data/model.ts';
-import { CATEGORY_COLORS, esc, eventTitle, renderCard, venueName } from './card.ts';
+import { CATEGORY_COLORS, esc, eventTitle, renderCard, renderVenuePhoto, venueName } from './card.ts';
 import { applyMapLanguage, countLabel, lang, setLang, t } from './i18n.ts';
 
 type DateMode = 'today' | 'weekend' | 'days7' | 'days30' | 'pick';
@@ -171,7 +171,7 @@ function openVenue(id: string) {
   popup?.remove();
   popup = new maplibregl.Popup({ maxWidth: '320px', className: 'venue-popup' })
     .setLngLat([v.lon, v.lat])
-    .setHTML(`<h2>${esc(venueName(v))}</h2><p class="count">${countLabel(evs.length)}</p>${evs.map((e) => renderCard(e, v)).join('')}`)
+    .setHTML(`${renderVenuePhoto(v)}<h2>${esc(venueName(v))}</h2><p class="count">${countLabel(evs.length)}</p>${evs.map((e) => renderCard(e, v)).join('')}`)
     .addTo(map);
 }
 

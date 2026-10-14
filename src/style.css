@@ -63,3 +63,7 @@ body[data-view="list"] #list { display: block; }
 .venue-popup h2 { margin: 0 20px 0 0; font-size: 16px; }
 .venue-popup .count { margin: 2px 0 6px; color: var(--muted); font-size: 13px; }
 .venue-popup .card { border: 0; border-top: 1px solid var(--line); border-radius: 0; padding: 8px 0 4px; margin: 0; }
+.venue-popup .venue-photo { margin: -12px -14px 8px; }
+.venue-popup .venue-photo img { display: block; width: 100%; height: 140px; object-fit: cover; border-radius: 10px 10px 0 0; background: #eee; }
+.venue-popup .venue-photo figcaption { padding: 2px 8px; font-size: 10px; color: var(--muted); text-align: right; }
+.venue-popup .venue-photo figcaption a { color: inherit; }
