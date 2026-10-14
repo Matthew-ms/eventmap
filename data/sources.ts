@@ -103,4 +103,9 @@ export const sources: Source[] = [
   // The list page is watched so each new designation opens an issue.
   { id: 'osaka-shitei-list', kind: 'page', name: '大阪市 指定催し一覧', url: 'https://www.city.osaka.lg.jp/shobo/page/0000460231.html', checked: '2026-10-14' },
   { id: 'osaka-notice-r081009', kind: 'notice', name: '大阪市（消）告示第28号 (2026-10-09)', url: 'https://www.city.osaka.lg.jp/shobo/cmsfiles/contents/0000460/460231/naniwayodogawa.pdf', checked: '2026-10-14' },
+
+  // --- Discovery pass via Walker+ (2026-10-14). Walker+ itself is never a source (terms §3). ---
+  { id: 'osaka-info-sakaimatsuri', kind: 'page', name: '大阪観光局 第53回堺まつり', url: 'https://osaka-info.jp/event/sakaimatsuri2026/', checked: '2026-10-14' },
+  { id: 'pref-rinku-autumn', kind: 'page', name: '大阪府 りんくう“いろどり”まちづくり in Autumn 2026', url: 'https://www.pref.osaka.lg.jp/moyo/o140050/000002.html', checked: '2026-10-14' },
+  { id: 'lohasfesta-banpaku', kind: 'page', name: 'ロハスフェスタ万博 2026秋', url: 'https://lohasfesta.jp/bampaku-autumn', checked: '2026-10-14' },
 ];

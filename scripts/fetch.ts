@@ -4,6 +4,10 @@ import robotsParser from 'robots-parser';
 
 export const USER_AGENT = 'EventMapBot/0.1 (+https://github.com/Matthew-ms/eventmap)';
 
+// Blocking any of these means "no AI collection". Anthropic's older names matter: fmfm.jp blocks anthropic-ai and
+// Claude-Web but not ClaudeBot.
+const AI_CRAWLERS = ['ClaudeBot', 'anthropic-ai', 'Claude-Web', 'GPTBot'];
+
 const robots = new Map<string, ReturnType<typeof robotsParser>>();
 const lastHit = new Map<string, number>();
 
@@ -27,7 +31,7 @@ export async function politeFetch(url: string): Promise<Response> {
   const rules = robots.get(origin)!;
   if (rules.isDisallowed(url, USER_AGENT)) throw new Error(`robots.txt disallows ${url}`);
   // Our data entry is AI-assisted, so a site that blocks AI crawlers is treated as opting out of this project too.
-  if (rules.isDisallowed(url, 'ClaudeBot') || rules.isDisallowed(url, 'GPTBot')) {
+  if (AI_CRAWLERS.some((ua) => rules.isDisallowed(url, ua))) {
     throw new Error(`robots.txt opts out of AI crawlers for ${url}: stop using this source`);
   }
   await throttle(host);

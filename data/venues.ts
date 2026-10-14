@@ -83,4 +83,11 @@ export const venues: Venue[] = [
     photo: { file: "Hirano-jinja_(Kyoto,_Kyoto)_haisho.JPG", author: "Saigen Jiro", licence: 'CC0' } },
   // Pinned at the 十三 riverbank, mid-way along the designated 淀川河川敷 stretch (花川1 → 西中島2).
   { id: 'yodogawa-juso', name: '淀川河川敷（十三・西中島）', nameEn: 'Yodo River banks (Jūsō)', aliases: ['淀川', '十三', 'なにわ淀川花火'], lat: 34.7148, lon: 135.4835 },
+  // Discovery pass via Walker+ (2026-10-14): facts from the official pages, not from Walker+.
+  { id: 'sakai-minasakai', name: '堺市役所前 Minaさかい・大小路筋', nameEn: 'Sakai City Hall plaza / Ōshōji-suji', aliases: ['堺まつり', '堺東'], lat: 34.573673, lon: 135.482986 },
+  { id: 'rinku', name: 'りんくうタウン（府営りんくう公園周辺）', nameEn: 'Rinku Town (Rinku Park)', aliases: ['りんくう', '泉佐野'], lat: 34.415966, lon: 135.307434 },
+  { id: 'izumisano-port', name: '泉佐野漁港', nameEn: 'Izumisano Fishing Port', lat: 34.416489, lon: 135.318314 },
+  { id: 'tajiri', name: '田尻漁港・田尻交流広場', nameEn: 'Tajiri Fishing Port', aliases: ['田尻'], lat: 34.392326, lon: 135.293884 },
+  { id: 'sennan-longpark', name: '泉南ロングパーク（泉南りんくう公園）', nameEn: 'Sennan Long Park', lat: 34.382931, lon: 135.268799 },
+  { id: 'banpaku-park', name: '万博記念公園', nameEn: 'Expo \'70 Commemorative Park', aliases: ['万博公園', 'Expo Park'], lat: 34.807747, lon: 135.533157 },
 ];

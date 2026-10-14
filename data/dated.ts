@@ -1,6 +1,9 @@
 import type { Dated } from './model.ts';
 
 // Events whose date moves each year. Add next year's entry once it is announced.
+const PREF_RINKU = 'https://www.pref.osaka.lg.jp/moyo/o140050/000002.html';
+const SAKAI = 'https://osaka-info.jp/event/sakaimatsuri2026/';
+const LOHAS = 'https://lohasfesta.jp/bampaku-autumn';
 const KYOTO_NOTICE_0918 = 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0809/0918/0918_12.pdf';
 const heianNomi = (start: string): Dated => ({
   id: `heian-nominoichi-${start}`, venue: 'okazaki-park', title: '平安蚤の市', titleEn: 'Heian Flea Market', category: 'market',
@@ -68,6 +71,26 @@ export const dated: Dated[] = [
   // Fireworks: 大阪市消防局 指定催し notice 告示第28号 (2026-10-09).
   { id: 'naniwa-yodogawa-hanabi-2026', venue: 'yodogawa-juso', title: '第38回なにわ淀川花火大会', titleEn: 'Naniwa Yodogawa Fireworks', category: 'fireworks',
     start: '2026-10-17', price: null, source: 'https://www.city.osaka.lg.jp/shobo/cmsfiles/contents/0000460/460231/naniwayodogawa.pdf', confirmed: '2026-10-14' },
+
+  // --- Discovery pass via Walker+ (2026-10-14): each fact is from the linked official page ---
+  { id: 'sakai-matsuri-2026', venue: 'sakai-minasakai', title: '第53回堺まつり', titleEn: "Sakai Festival", category: 'festival',
+    start: '2026-10-17', end: '2026-10-18', startTime: '16:00', price: 0, source: SAKAI, confirmed: '2026-10-14' },
+  { id: 'eejanaika-2026', venue: 'rinku', title: '第22回泉州YOSAKOIゑぇじゃないか祭り', titleEn: "Senshu YOSAKOI Eejanaika Festival", category: 'festival',
+    start: '2026-10-18', startTime: '09:30', endTime: '18:30', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'senshu-yoichi-2026', venue: 'tajiri', title: '泉州夜市 田尻漁港 海味', titleEn: "Senshu Night Market (Tajiri)", category: 'market',
+    start: '2026-10-17', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'yakisoba-gyoza-expo-2026', venue: 'rinku', title: 'やきそば＆ギョーザEXPO in IZUMISANO', titleEn: "Yakisoba & Gyoza Expo", category: 'festival',
+    start: '2026-10-24', end: '2026-10-25', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'izumisano-umimatsuri-2026', venue: 'izumisano-port', title: '泉佐野うみ祭', titleEn: "Izumisano Sea Festival", category: 'festival',
+    start: '2026-10-25', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'tajiri-fes-marche-2026', venue: 'tajiri', title: 'たじりフェス 日曜マルシェ＆ブリッジパーク', titleEn: "Tajiri Fes Sunday Marché", category: 'market',
+    start: '2026-10-25', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'sennan-marugoto-2026', venue: 'sennan-longpark', title: '泉南まるごとフェスティバル', titleEn: "Sennan Marugoto Festival", category: 'festival',
+    start: '2026-11-15', price: null, source: PREF_RINKU, confirmed: '2026-10-14' },
+  { id: 'lohas-banpaku-2026a-1', venue: 'banpaku-park', title: 'ロハスフェスタ万博 2026秋', titleEn: "LOHAS Festa Banpaku (autumn)", category: 'market',
+    start: '2026-10-09', end: '2026-10-12', price: null, source: LOHAS, confirmed: '2026-10-14' },
+  { id: 'lohas-banpaku-2026a-2', venue: 'banpaku-park', title: 'ロハスフェスタ万博 2026秋', titleEn: "LOHAS Festa Banpaku (autumn)", category: 'market',
+    start: '2026-10-16', end: '2026-10-18', price: null, source: LOHAS, confirmed: '2026-10-14' },
 
   // Autumn 2026 special openings / light-ups (dates change every year)
   { id: 'kiyomizu-night-autumn-2026', venue: 'kiyomizudera', title: '秋の夜間特別拝観', titleEn: 'Autumn night viewing', category: 'shrine_temple',
