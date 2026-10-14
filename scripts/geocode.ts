@@ -5,8 +5,9 @@ import { politeFetch } from './fetch.ts';
 for (const address of process.argv.slice(2)) {
   let hit: { geometry: { coordinates: [number, number] }; properties: { title: string } } | undefined;
   for (let attempt = 0; attempt < 3 && !hit; attempt++) {
-    const res = await politeFetch(`https://msearch.gsi.go.jp/address-search/AddressSearch?q=${encodeURIComponent(address)}`);
-    const text = await res.text();
+    const text = await politeFetch(`https://msearch.gsi.go.jp/address-search/AddressSearch?q=${encodeURIComponent(address)}`)
+      .then((r) => r.text())
+      .catch(() => ''); // connection resets happen; retry below
     if (text) hit = JSON.parse(text)[0]; // the API sometimes answers with an empty body; retry
     if (!text) await new Promise((r) => setTimeout(r, 3000));
   }

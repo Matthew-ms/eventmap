@@ -3,6 +3,7 @@
 // kind 'page':     official page read by hand. Facts only, linked back. The daily job hashes the
 //                  page text and opens a GitHub issue when it changes, so the entry gets re-checked.
 // kind 'opendata': machine-readable dataset fetched daily by scripts/sources/<id>.ts.
+// kind 'scraper':  schedule page scraped daily by scripts/sources/schedules.ts (facts + link only).
 // kind 'notice':   fixed official notice (e.g. Kyoto gazette PDF). Never changes, so not watched.
 //
 // `checked`: date the robots.txt and terms/licence were last reviewed.
@@ -11,7 +12,7 @@ export interface Source {
   id: string;
   url: string;
   name: string;
-  kind: 'page' | 'opendata' | 'notice';
+  kind: 'page' | 'opendata' | 'notice' | 'scraper';
   licence?: string; // only for open data; pages are used for facts only
   attribution?: string; // HTML shown in the map credits, if the licence requires it
   checked: string;
@@ -68,4 +69,13 @@ export const sources: Source[] = [
   // No current events: watched so the 2027 schedule announcement opens an issue.
   { id: 'kishiwada-danjiri', kind: 'page', name: '岸和田市 だんじり祭', url: 'https://www.city.kishiwada.lg.jp/site/danjiri/', checked: '2026-10-14' },
   { id: 'aizendo-festival', kind: 'page', name: '愛染堂 愛染まつり', url: 'http://www.aizendo.com/festival.htm', checked: '2026-10-14' },
+
+  // --- Scraped schedules (2026-10-14). Terms forbid "secondary use" of content; user decided facts + link only.
+  { id: 'kintetsu-abeno', kind: 'scraper', name: 'あべのハルカス近鉄本店 催事', url: 'https://abenoharukas.d-kintetsu.co.jp/eventschedule/', checked: '2026-10-14' },
+  { id: 'zepp-namba', kind: 'scraper', name: 'Zepp Namba スケジュール', url: 'https://www.zepp.co.jp/hall/namba/schedule/', checked: '2026-10-14' },
+  { id: 'zepp-osakabayside', kind: 'scraper', name: 'Zepp Osaka Bayside スケジュール', url: 'https://www.zepp.co.jp/hall/osakabayside/schedule/', checked: '2026-10-14' },
+  { id: 'quattro-umeda', kind: 'scraper', name: '梅田CLUB QUATTRO スケジュール', url: 'https://www.club-quattro.com/umeda/schedule/', checked: '2026-10-14' },
+  { id: 'festivalhall', kind: 'scraper', name: 'フェスティバルホール 公演', url: 'https://www.festivalhall.jp/events/', checked: '2026-10-14' },
+  { id: 'rohm-theatre', kind: 'scraper', name: 'ロームシアター京都 プログラム', url: 'https://rohmtheatrekyoto.jp/program/', checked: '2026-10-14' },
+  { id: 'bigcat', kind: 'scraper', name: '心斎橋BIGCAT スケジュール', url: 'https://bigcat-live.com/', checked: '2026-10-14' },
 ];

@@ -1,0 +1,105 @@
+{
+ "venues": [],
+ "events": [
+  {
+   "title": "建築展示「京都会館／ロームシアター京都 65年の記録」",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:145533",
+   "start": "2026-01-10",
+   "end": "2026-11-30",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/145533/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:145850",
+   "start": "2026-01-10",
+   "end": "2026-12-30",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/145850/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:156394",
+   "start": "2026-09-11",
+   "end": "2026-12-06",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/156394/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "KYOTO EXPERIMENT 京都国際舞台芸術祭 2026",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:148485",
+   "start": "2026-10-03",
+   "end": "2026-10-25",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/148485/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:153064:2026-10-17",
+   "start": "2026-10-17",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/153064/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:153064:2026-10-24",
+   "start": "2026-10-24",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/153064/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:153064:2026-10-31",
+   "start": "2026-10-31",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/153064/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  },
+  {
+   "title": "関係者のみの催し",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:154124:2026-10-15",
+   "start": "2026-10-15",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/154124/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-14"
+  }
+ ]
+}

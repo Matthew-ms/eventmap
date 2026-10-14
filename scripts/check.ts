@@ -31,8 +31,8 @@ for (const e of [...recurring, ...dated]) {
   if (!isTime(e.startTime) || !isTime(e.endTime)) errors.push(`${where}: time must be HH:MM`);
   if (!isDate(e.confirmed)) errors.push(`${where}: confirmed must be YYYY-MM-DD`);
   else if (e.confirmed < addDays(today, -396)) warnings.push(`${where}: last confirmed ${e.confirmed}, over 13 months ago`);
-  const opendata = 'sourceType' in e && e.sourceType === 'opendata';
-  if (!opendata && !sourceUrls.has(e.source)) errors.push(`${where}: source ${e.source} is not in data/sources.ts`);
+  const automated = 'sourceType' in e && (e.sourceType === 'opendata' || e.sourceType === 'scraped');
+  if (!automated && !sourceUrls.has(e.source)) errors.push(`${where}: source ${e.source} is not in data/sources.ts`);
 }
 
 for (const r of recurring) {

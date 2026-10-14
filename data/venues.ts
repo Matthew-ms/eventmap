@@ -56,4 +56,12 @@ export const venues: Venue[] = [
     photo: { file: "Osaka_Tenmangu_Shrine_ao_02.jpg", author: "Sakai Yayoi", licence: 'CC0' } },
   { id: 'aizendo', name: '愛染堂勝鬘院', nameEn: 'Aizendō Shōman-in', aliases: ['愛染さん'], lat: 34.65696, lon: 135.512665, url: 'http://www.aizendo.com/',
     photo: { file: "Aizendo_Shomanin_Osaka01s5s3200.jpg", author: "663highland", licence: 'CC BY 2.5' } },
+  // Department stores and concert venues with scraped schedules (scripts/sources/schedules.ts)
+  { id: 'kintetsu-abeno', name: 'あべのハルカス近鉄本店', nameEn: 'Abeno Harukas Kintetsu Main Store', aliases: ['近鉄百貨店', 'あべのハルカス'], lat: 34.64645, lon: 135.513275, url: 'https://abenoharukas.d-kintetsu.co.jp/' },
+  { id: 'zepp-namba', name: 'Zepp Namba (OSAKA)', nameEn: 'Zepp Namba', aliases: ['ゼップなんば'], lat: 34.657761, lon: 135.501358, url: 'https://www.zepp.co.jp/hall/namba/' },
+  { id: 'zepp-osakabayside', name: 'Zepp Osaka Bayside', nameEn: 'Zepp Osaka Bayside', aliases: ['ゼップ大阪ベイサイド'], lat: 34.661545, lon: 135.432175, url: 'https://www.zepp.co.jp/hall/osakabayside/' },
+  { id: 'quattro-umeda', name: '梅田CLUB QUATTRO', nameEn: 'Umeda Club Quattro', aliases: ['クアトロ'], lat: 34.702, lon: 135.502289, url: 'https://www.club-quattro.com/umeda/' },
+  { id: 'festivalhall', name: 'フェスティバルホール', nameEn: 'Festival Hall', aliases: ['Festival Hall'], lat: 34.693626, lon: 135.496872, url: 'https://www.festivalhall.jp/' },
+  { id: 'rohm-theatre', name: 'ロームシアター京都', nameEn: 'ROHM Theatre Kyoto', aliases: ['京都会館'], lat: 35.014297, lon: 135.781448, url: 'https://rohmtheatrekyoto.jp/' },
+  { id: 'bigcat', name: '心斎橋BIGCAT', nameEn: 'Shinsaibashi BIGCAT', aliases: ['ビッグキャット', 'BIG CAT'], lat: 34.671967, lon: 135.498718, url: 'https://bigcat-live.com/' },
 ];

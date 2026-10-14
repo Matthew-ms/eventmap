@@ -7,11 +7,24 @@ Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Ma
 |---|---|---|
 | A — Map and list view | ✅ Done 2026-10-13 | Seed: 15 recurring + 2 dated events at 6 venues. "Near me" not yet tested on a real phone (user to try). |
 | B — Reliable sources | ✅ Built 2026-10-13 | Source registry, Osaka parks CSV (52 events, 15 parks), page-change watcher, `npm run check`. **Open:** first nightly run (03:00 JST 2026-10-14) not yet verified: snapshot commit + issue creation. |
-| C — Coverage per type | 🔄 In progress | Pushed: **markets** (11 series + Osaka parks; target ≥ 20 not met), **shrine/temple** (~53 dates/yr; target 60), **festivals** (22/yr; target 30). Missing festivals with no usable official source: 五山送り火, 鞍馬の火祭, 祇園祭 山鉾巡行, 岸和田だんじり 2027 (page watched). **Dept stores + concerts: blocked on a user decision (2026-10-14).** robots.txt allows all candidates and none publish schema.org Event data, but their terms forbid "secondary use" of site content without permission (e.g. 近鉄 siteinfo, ロームシアター site-policy); facts (names/dates) are arguably not covered. Options put to the user: ask permission / facts-only with link / venue pins only. Osaka under-covered in every type. |
+| C — Coverage per type | ✅ First pass done 2026-10-14 (targets partly met) | See "Coverage" below. |
 | Images | ✅ Done 2026-10-14 | 22 venues have a Wikimedia Commons lead photo (from the ja.wikipedia article) shown in the popup with author + licence credit. Wikimedia robots.txt closes its APIs (/w/, SPARQL) to bots, so photos are looked up via normal /wiki/ pages by `scripts/venue-photo.ts` and stored in `data/venues.ts`. Osaka parks `画像` column still unused (image licence unconfirmed). |
 | Fireworks | ⏳ Apr–Jun 2027 | |
 
 Nightly job verified 2026-10-14 (run 38478500130): fetch, snapshot commit and redeploy all worked; the issue-creation path has not fired yet.
+
+### Coverage (2026-10-14)
+| Type | Now | Target | Gap / why |
+|---|---|---|---|
+| Markets | 11 series + Osaka park markets | ≥ 20 | Osaka market sources are Instagram-only or commercial event sites |
+| Shrine/temple | ~53 dates/yr, 20+ venues | ≥ 60 | Close; 知恩院 excluded (AI opt-out) |
+| Festivals | 22 dates/yr | ≥ 30 | 五山送り火, 鞍馬の火祭, 祇園祭 山鉾巡行 have no usable official source; 岸和田 2027 not announced (page watched) |
+| Dept stores | 1 store (近鉄 あべのハルカス), ~7 催事 | 6–8 stores | 大丸 (dmdepart.jp) returns 403 to our bot; 阪神, 髙島屋, JR京都伊勢丹 (mistore.jp) don't answer our bot; 阪急 renders with JavaScript |
+| Concerts | 6 venues (Zepp Namba, Zepp Osaka Bayside, 梅田QUATTRO, フェスティバルホール, 心斎橋BIGCAT, ロームシアター京都), ~190 shows through Dec | 15–20 venues | 京都コンサートホール renders with JavaScript; Billboard Live, 京都MUSE show no parseable dates; ザ・シンフォニーホール and 大阪城ホール schedule URLs 404 (not investigated further) |
+| Free-entry | price 0 on markets/festivals/shrines | weekends covered | Met in Kyoto; scraped events have price unknown |
+| Fireworks | — | ≥ 30 | Apr–Jun 2027 |
+
+Scraped events are facts + link only (user decision 2026-10-14). Each scraper has a fixture test; a scraper returning 0 events opens an issue.
 
 Known follow-ups: Osaka parks category is a keyword guess (`categorize()` in `scripts/sources/osaka-parks.ts`); GitHub warns some Pages actions still target Node 20.
 
