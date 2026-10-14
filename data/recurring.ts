@@ -128,4 +128,37 @@ export const recurring: Recurring[] = [
 
   { id: 'eto-kigansai', venue: 'shimogamo', title: 'えと祈願祭', titleEn: 'Eto Prayer Festival', category: 'shrine_temple',
     rrule: 'FREQ=YEARLY;BYMONTH=10;BYDAY=3SU', price: null, source: 'https://www.shimogamo-jinja.or.jp/saiji/etokigansai', confirmed: '2026-10-13' },
+
+  // --- Festivals from Kyoto Fire Bureau 指定催し notices ---
+  // Yearly rules only where the 2025 and 2026 notices give the same dates.
+  { id: 'gion-yoiyama', venue: 'gion-yamaboko', title: '祇園祭（山鉾町 露店・宵山）', titleEn: 'Gion Matsuri: Yoiyama street stalls', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=15', days: 2, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0806/0626/0626_6.pdf', confirmed: '2026-10-14' },
+  { id: 'jonangu-reisai', venue: 'jonangu', title: '城南宮例祭', titleEn: 'Jōnangū Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=20', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0806/0626/0626_6.pdf', confirmed: '2026-10-14' },
+  { id: 'fujinomori-matsuri', venue: 'fujinomori', title: '藤森祭', titleEn: 'Fujinomori Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=1', days: 5, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0804/0415/0415_8.pdf', confirmed: '2026-10-14' },
+  { id: 'goryo-matsuri', venue: 'goryo', title: '御霊祭', titleEn: 'Goryō Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=17', days: 2, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0804/0415/0415_8.pdf', confirmed: '2026-10-14' },
+  { id: 'kisshoin-summer', venue: 'kisshoin-tenmangu', title: '吉祥院天満宮 夏季大祭', titleEn: 'Kisshōin Tenmangū Summer Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=25', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0807/0724/0724_14.pdf', confirmed: '2026-10-14' },
+  { id: 'hassaku-zaogongen', venue: 'kofukuji-zaodo', title: '八朔祭（蔵王権現）', titleEn: 'Hassaku Festival (Zaō Gongen)', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=31', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0807/0724/0724_14.pdf', confirmed: '2026-10-14' },
+  { id: 'gojo-toukimatsuri', venue: 'gojo-wakamiya', title: '五条若宮陶器祭', titleEn: 'Gojō Wakamiya Pottery Fair', category: 'market',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=7', days: 4, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0807/0724/0724_14.pdf', confirmed: '2026-10-14' },
+  // New Year: designated Dec 31 – Jan 5 (2025-26 notice); 十日ゑびす Jan 8–11 (2026 notice).
+  { id: 'kitano-hatsumode', venue: 'kitano', title: '火縄授与・初詣', titleEn: 'New Year visit & sacred fire rope', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=31', days: 6, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0711/1121/1121_16.pdf', confirmed: '2026-10-14' },
+  { id: 'yasaka-okera', venue: 'yasaka', title: 'をけら詣り・初詣', titleEn: 'Okera-mairi & New Year visit', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=31', days: 6, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0711/1121/1121_16.pdf', confirmed: '2026-10-14' },
+  { id: 'inari-hatsumode', venue: 'fushimi-inari', title: '初詣', titleEn: 'New Year visit', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=12;BYMONTHDAY=31', days: 6, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0711/1121/1121_16.pdf', confirmed: '2026-10-14' },
+  { id: 'kyoto-ebisu-toka', venue: 'kyoto-ebisu', title: '十日ゑびす', titleEn: 'Tōka Ebisu (Kyoto)', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=8', days: 4, price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0712/1212/1212_7.pdf', confirmed: '2026-10-14' },
+
+  // --- Osaka festivals ---
+  // Page says "令和7年は 6月30日（火）…" but those weekdays are 2026's: a typo; the festival is 6/30–7/2 every year.
+  { id: 'aizen-matsuri', venue: 'aizendo', title: '愛染まつり', titleEn: 'Aizen Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', days: 3, startTime: '12:00', price: 0, source: 'http://www.aizendo.com/festival.htm', confirmed: '2026-10-14' },
+  { id: 'tenjin-matsuri', venue: 'osaka-tenmangu', title: '天神祭', titleEn: 'Tenjin Matsuri', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=24', days: 2, price: 0, source: 'https://osaka-info.jp/spot/osakatenmangu/', confirmed: '2026-10-14' },
 ];

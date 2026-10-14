@@ -42,6 +42,12 @@ export const dated: Dated[] = [
   { id: 'inari-motomiya-2027', venue: 'fushimi-inari', title: '本宮祭', titleEn: 'Motomiya Festival', category: 'shrine_temple',
     start: '2027-07-25', startTime: '09:00', price: 0, source: 'https://inari.jp/rite/?month=7%E6%9C%88', confirmed: '2026-10-13' },
 
+  // 節分 2027 = Feb 3. The 2026 notice designated Feb 2–3 (節分の前日・当日) for both.
+  { id: 'yoshida-setsubun-2027', venue: 'yoshida', title: '吉田神社節分大祭', titleEn: 'Yoshida Shrine Setsubun Festival', category: 'festival',
+    start: '2027-02-02', end: '2027-02-03', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0801/0116/0116_6.pdf', confirmed: '2026-10-14' },
+  { id: 'mibu-setsubun-2027', venue: 'mibudera', title: '壬生寺節分会', titleEn: 'Mibu-dera Setsubun', category: 'festival',
+    start: '2027-02-02', end: '2027-02-03', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0801/0116/0116_6.pdf', confirmed: '2026-10-14' },
+
   // Autumn 2026 special openings / light-ups (dates change every year)
   { id: 'kiyomizu-night-autumn-2026', venue: 'kiyomizudera', title: '秋の夜間特別拝観', titleEn: 'Autumn night viewing', category: 'shrine_temple',
     start: '2026-11-21', end: '2026-11-30', endTime: '21:30', price: null, source: 'https://www.kiyomizudera.or.jp/event/', confirmed: '2026-10-13' },

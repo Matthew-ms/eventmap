@@ -53,4 +53,19 @@ export const sources: Source[] = [
   { id: 'inari-rite-04', kind: 'page', name: '伏見稲荷大社 祭事 4月', url: 'https://inari.jp/rite/?month=4%E6%9C%88', checked: '2026-10-13' },
   { id: 'inari-rite-07', kind: 'page', name: '伏見稲荷大社 祭事 7月', url: 'https://inari.jp/rite/?month=7%E6%9C%88', checked: '2026-10-13' },
   { id: 'namba-yasaka-tsunahiki', kind: 'page', name: '難波八阪神社 綱引神事', url: 'https://nambayasaka.jp/?page_id=145', checked: '2026-10-13' },
+
+  // --- Festivals (batch 3, 2026-10-14) ---
+  { id: 'kyoto-notice-r070411', kind: 'notice', name: '京都市消防局告示第1号 (2025-04-11)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0704/0411/0411_9.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r070620', kind: 'notice', name: '京都市消防局告示第5号 (2025-06-20)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0706/0620/0620_21.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r070708', kind: 'notice', name: '京都市消防局告示第6号 (2025-07-08)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0707/0708/0708_4.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r071121', kind: 'notice', name: '京都市消防局告示第12号 (2025-11-21)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0711/1121/1121_16.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r071212', kind: 'notice', name: '京都市消防局告示第13号 (2025-12-12)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0712/1212/1212_7.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r080116', kind: 'notice', name: '京都市消防局告示第14号 (2026-01-16)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0801/0116/0116_6.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r080415', kind: 'notice', name: '京都市消防局告示第1号 (2026-04-15)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0804/0415/0415_8.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r080626', kind: 'notice', name: '京都市消防局告示第3号 (2026-06-26)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0806/0626/0626_6.pdf', checked: '2026-10-14' },
+  { id: 'kyoto-notice-r080724', kind: 'notice', name: '京都市消防局告示第4号 (2026-07-24)', url: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0807/0724/0724_14.pdf', checked: '2026-10-14' },
+  { id: 'osaka-info-tenmangu', kind: 'page', name: '大阪観光局 大阪天満宮 (天神祭)', url: 'https://osaka-info.jp/spot/osakatenmangu/', checked: '2026-10-14' },
+  // No current events: watched so the 2027 schedule announcement opens an issue.
+  { id: 'kishiwada-danjiri', kind: 'page', name: '岸和田市 だんじり祭', url: 'https://www.city.kishiwada.lg.jp/site/danjiri/', checked: '2026-10-14' },
+  { id: 'aizendo-festival', kind: 'page', name: '愛染堂 愛染まつり', url: 'http://www.aizendo.com/festival.htm', checked: '2026-10-14' },
 ];

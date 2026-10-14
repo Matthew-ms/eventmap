@@ -18,4 +18,18 @@ export const venues: Venue[] = [
   { id: 'kamigamo', name: '上賀茂神社', nameEn: 'Kamigamo Shrine', aliases: ['賀茂別雷神社'], lat: 35.060097, lon: 135.751495, url: 'https://www.kamigamojinja.jp/' },
   { id: 'fushimi-inari', name: '伏見稲荷大社', nameEn: 'Fushimi Inari Taisha', aliases: ['お稲荷さん', 'Fushimi Inari'], lat: 34.967037, lon: 135.773499, url: 'https://inari.jp/' },
   { id: 'namba-yasaka', name: '難波八阪神社', nameEn: 'Namba Yasaka Shrine', aliases: ['Namba Yasaka'], lat: 34.661442, lon: 135.496399, url: 'https://nambayasaka.jp/' },
+  // Festival batch (2026-10-14). Street festivals are pinned at their centre.
+  { id: 'gion-yamaboko', name: '四条烏丸（祇園祭 山鉾町）', nameEn: 'Shijō-Karasuma (Gion Matsuri floats)', aliases: ['祇園祭', '長刀鉾', 'Gion'], lat: 35.003723, lon: 135.760376 },
+  { id: 'yasaka', name: '八坂神社', nameEn: 'Yasaka Shrine', aliases: ['祇園さん', 'Yasaka Jinja', '円山公園'], lat: 35.003967, lon: 135.778748 },
+  { id: 'gojo-wakamiya', name: '若宮八幡宮・五条坂', nameEn: 'Wakamiya Hachimangū / Gojō-zaka', aliases: ['五条坂'], lat: 34.99522, lon: 135.774673 },
+  { id: 'kisshoin-tenmangu', name: '吉祥院天満宮', nameEn: 'Kisshōin Tenmangū', lat: 34.973419, lon: 135.734543 },
+  { id: 'kofukuji-zaodo', name: '光福寺 蔵王堂', nameEn: 'Kōfuku-ji Zaōdō', aliases: ['蔵王堂'], lat: 34.965611, lon: 135.715424 },
+  { id: 'jonangu', name: '城南宮', nameEn: 'Jōnangū', lat: 34.950802, lon: 135.746841 },
+  { id: 'fujinomori', name: '藤森神社', nameEn: 'Fujinomori Shrine', lat: 34.950462, lon: 135.771866 },
+  { id: 'goryo', name: '御霊神社（上御霊神社）', nameEn: 'Goryō Shrine', aliases: ['上御霊神社'], lat: 35.036491, lon: 135.761368 },
+  { id: 'kyoto-ebisu', name: '京都ゑびす神社', nameEn: 'Kyoto Ebisu Shrine', aliases: ['えべっさん', '恵美須神社'], lat: 34.999863, lon: 135.771942 },
+  { id: 'yoshida', name: '吉田神社', nameEn: 'Yoshida Shrine', lat: 35.02523, lon: 135.784836 },
+  { id: 'mibudera', name: '壬生寺', nameEn: 'Mibu-dera', lat: 35.001846, lon: 135.743561 },
+  { id: 'osaka-tenmangu', name: '大阪天満宮', nameEn: 'Osaka Tenmangū', aliases: ['天満の天神さん', 'Tenjin Matsuri'], lat: 34.69553, lon: 135.512634, url: 'https://osaka-info.jp/spot/osakatenmangu/' },
+  { id: 'aizendo', name: '愛染堂勝鬘院', nameEn: 'Aizendō Shōman-in', aliases: ['愛染さん'], lat: 34.65696, lon: 135.512665, url: 'http://www.aizendo.com/' },
 ];
