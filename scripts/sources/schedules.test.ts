@@ -1,7 +1,7 @@
 // Each fixture is a trimmed copy of the real page markup (2026-10-14).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { inferYear, parseBigcat, parseFestivalHall, parseKintetsu, parseQuattro, parseRohm, parseZepp, text } from './schedules.ts';
+import { inferYear, parseBigcat, parseFestivalHall, parseIcal, parseJanus, parseJohall, parseSymphony, parseKintetsu, parseQuattro, parseRohm, parseZepp, text } from './schedules.ts';
 
 test('text(): tags, <br> and entities', () => {
   assert.equal(text('A<br>B &amp; C&nbsp;&yen;9,700 &rarr; &#12354;'), 'A\nB & C ¥9,700 → あ');
@@ -69,4 +69,58 @@ test('BIGCAT: M/D with inferred year; links to the schedule page itself', () => 
     <li><div class="info"><p class="date orb fw500">1/9</p><h3 class="ttl">新年ライブ</h3></div></li>`;
   const out = parseBigcat(html, '2026-10-14', 'https://bigcat-live.com/');
   assert.deepEqual(out.map((e) => [e.title, e.start, e.url]), [['monobright TAIBAN', '2026-10-24', 'https://bigcat-live.com/'], ['新年ライブ', '2027-01-09', 'https://bigcat-live.com/']]);
+});
+
+test('iCal: folding, escapes, all-nighter stays on its start date, all-day DTEND is exclusive', () => {
+  const ics = [
+    'BEGIN:VCALENDAR',
+    'BEGIN:VEVENT',
+    'DTSTART;TZID=Asia/Tokyo:20261016T220000',
+    'DTEND;TZID=Asia/Tokyo:20261017T050000',
+    'UID:23004-1@www.metro.ne.jp',
+    'SUMMARY:Connected Underground with Stefan Goldmann (Macro\\, from',
+    '  Berlin)',
+    'URL:https://www.metro.ne.jp/schedule/261016/',
+    'END:VEVENT',
+    'BEGIN:VEVENT',
+    'DTSTART;TZID=Asia/Tokyo:20261015T190000',
+    'SUMMARY:10/15 (thu) RE:DIAL',
+    'END:VEVENT',
+    'BEGIN:VEVENT',
+    'DTSTART;VALUE=DATE:20261231',
+    'DTEND;VALUE=DATE:20270102',
+    'SUMMARY:年越し',
+    'END:VEVENT',
+    'END:VCALENDAR',
+  ].join('\r\n');
+  const [a, c, b] = parseIcal(ics, '2026-10-14', 'https://www.metro.ne.jp/');
+  assert.equal(c.title, 'RE:DIAL'); // leading date stripped
+  assert.deepEqual([a.title, a.start, a.end, a.startTime, a.url],
+    ['Connected Underground with Stefan Goldmann (Macro, from Berlin)', '2026-10-16', undefined, '22:00', 'https://www.metro.ne.jp/schedule/261016/']);
+  assert.deepEqual([b.start, b.end, b.startTime, b.url], ['2026-12-31', '2027-01-01', undefined, 'https://www.metro.ne.jp/']);
+});
+
+test('JANUS: title + act, 開演 time, links to the month page', () => {
+  const html = `<article class="c-scheduleList" id="01"><div class="c-scheduleList__date--month">10/</div><div class="c-scheduleList__date--date">01</div>
+    <div class="c-scheduleList__head--title"> Osaka Acoload 2026 </div><div class="c-scheduleList__head--act"> 石坪日菜 / 蒔音 </div>
+    <dl><dt>OPEN/START</dt> <dd> 18:30 / 19:00 </dd></dl></article>`;
+  const [e] = parseJanus(html, '2026-10-14', 'https://janusosaka.com/schedule/2026-10/');
+  assert.deepEqual([e.title, e.start, e.startTime, e.url], ['Osaka Acoload 2026（石坪日菜 / 蒔音）', '2026-10-01', '19:00', 'https://janusosaka.com/schedule/2026-10/']);
+});
+
+test('ザ・シンフォニーホール: <time> with weekday and 開演', () => {
+  const html = `<li><a href="https://www.symphonyhall.jp/event/2024138845" class=""> <article> <time>2026年10月1日(木) 19:00 開演</time>
+    <h3>特別演奏会<br>ラフマニノフ・チクルス</h3> </article> </a></li>`;
+  const [e] = parseSymphony(html);
+  assert.deepEqual([e.id, e.title, e.start, e.startTime], ['symphony:2024138845', '特別演奏会 ラフマニノフ・チクルス', '2026-10-01', '19:00']);
+});
+
+test('大阪城ホール: genre decides category; links to the event site', () => {
+  const html = `<dl> <dt class="event-genre"> <span class="date">2026/10/14</span> <span class="bg">音楽・芸能</span> </dt>
+      <dt class="event-ttl"><a href="https://tour.mrchildren.jp/" target="_blank">Mr.Children【振替公演】</a></dt>
+      <dd><ul><li><span class="d-ttl">開場</span> <span class="d-txt">17:30</span></li><li><span class="d-ttl">開演</span> <span class="d-txt">18:30</span></li></ul></dd> </dl>
+    <dl> <dt class="event-genre"> <span class="date">2026/10/20</span> <span class="bg">スポーツ</span> </dt><dt class="event-ttl"><a href="/event/1">バスケ</a></dt></dl>`;
+  const [a, b] = parseJohall(html, '2026-10-14', 'https://www.osaka-johall.com/event/');
+  assert.deepEqual([a.start, a.startTime, a.category, a.url], ['2026-10-14', '18:30', 'concert', 'https://tour.mrchildren.jp/']);
+  assert.deepEqual([b.category, b.url], ['other', 'https://www.osaka-johall.com/event/']);
 });

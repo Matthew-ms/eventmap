@@ -67,4 +67,9 @@ export const venues: Venue[] = [
   { id: 'yuki-jinja', name: '由岐神社（鞍馬）', nameEn: 'Yuki Shrine, Kurama', aliases: ['鞍馬', '鞍馬寺', 'Kurama'], lat: 35.114468, lon: 135.768997 },
   { id: 'daimonji', name: '大文字山（五山送り火）', nameEn: 'Mt. Daimonji (Gozan no Okuribi)', aliases: ['大文字', '五山送り火', 'Daimonji'], lat: 35.019666, lon: 135.811747 },
   { id: 'kishiwada', name: '岸和田だんじり会館', nameEn: 'Kishiwada Danjiri Hall', aliases: ['岸和田', 'だんじり'], lat: 34.459217, lon: 135.368195, url: 'https://www.city.kishiwada.lg.jp/site/danjiri/' },
+  { id: 'metro-kyoto', name: 'CLUB METRO（京都メトロ）', nameEn: 'Club Metro Kyoto', aliases: ['京都メトロ', 'METRO'], lat: 35.017071, lon: 135.772568, url: 'https://www.metro.ne.jp/' },
+  { id: 'janus', name: '心斎橋JANUS', nameEn: 'Shinsaibashi JANUS', aliases: ['ジャニス', 'Music Club JANUS'], lat: 34.671867, lon: 135.504929, url: 'https://janusosaka.com/' },
+  { id: 'symphonyhall', name: 'ザ・シンフォニーホール', nameEn: 'The Symphony Hall', aliases: ['シンフォニーホール'], lat: 34.70121, lon: 135.486145, url: 'https://www.symphonyhall.jp/' },
+  { id: 'osaka-johall', name: '大阪城ホール', nameEn: 'Osaka-jo Hall', aliases: ['城ホール'], lat: 34.689117, lon: 135.534195, url: 'https://www.osaka-johall.com/' },
+  { id: 'urbanguild', name: 'UrBANGUILD', nameEn: 'UrBANGUILD', aliases: ['アーバンギルド'], lat: 35.00761, lon: 135.770767, url: 'https://urbanguild.net/' },
 ];

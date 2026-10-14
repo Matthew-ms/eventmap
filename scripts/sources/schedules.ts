@@ -144,6 +144,74 @@ export function parseBigcat(html: string, today: string, url: string): Parsed[] 
   });
 }
 
+/**
+ * iCalendar feed (RFC 5545), e.g. WordPress "The Events Calendar" ?ical=1. The format is meant for machines,
+ * so it is the preferred source whenever a venue offers one. Folded lines are joined; \, \; \n unescaped.
+ * An all-night event (ends before 06:00 the next morning) stays on its start date.
+ */
+export function parseIcal(ics: string, _today: string, url: string): Parsed[] {
+  const unfolded = ics.replace(/\r?\n[ \t]/g, '');
+  return [...unfolded.matchAll(/BEGIN:VEVENT([\s\S]*?)END:VEVENT/g)].flatMap(([, b]) => {
+    const prop = (name: string) => b.match(new RegExp('^' + name + '(?:;[^:\\r\\n]*)?:(.*)$', 'm'))?.[1]?.trim();
+    const unescape = (v = '') => v.replace(/\\n/gi, ' ').replace(/\\([,;\\])/g, '$1').trim();
+    const dt = (v?: string) => v?.match(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?/);
+    const s = dt(prop('DTSTART'));
+    // Some venues prefix titles with the date ("10/15 (thu) RE:DIAL"); the card shows the date already.
+    const title = unescape(prop('SUMMARY')).replace(/^\d{1,2}\/\d{1,2}\s*[(（][^)）]*[)）]\s*/, '');
+    if (!s || !title) return [];
+    const start = iso(Number(s[1]), Number(s[2]), Number(s[3]));
+    const e = dt(prop('DTEND'));
+    let end = e ? iso(Number(e[1]), Number(e[2]), Number(e[3])) : start;
+    if (e && !e[4] && end > start) end = new Date(Date.parse(end + 'T00:00:00Z') - 86400000).toISOString().slice(0, 10); // all-day DTEND is exclusive
+    if (e?.[4] && Number(e[4]) < 6 && end > start) end = start; // all-nighter
+    return [{
+      id: 'ical:' + (prop('UID') ?? start + title), title, category: 'concert', start, ...(end > start ? { end } : {}),
+      startTime: s[4] ? s[4] + ':' + s[5] : undefined, status: status(title), url: unescape(prop('URL')) || url,
+    }];
+  });
+}
+
+/** 心斎橋JANUS monthly page: <article class="c-scheduleList"> date--month">10/ … date--date">01 … head--title"> title … OPEN/START 18:30 / 19:00 */
+export function parseJanus(html: string, today: string, url: string): Parsed[] {
+  return [...html.matchAll(/<article class="c-scheduleList"[^>]*>([\s\S]*?)<\/article>/g)].flatMap(([, b]) => {
+    const m = b.match(/date--month">\s*(\d{1,2})\//)?.[1];
+    const d = b.match(/date--date">\s*(\d{1,2})\s*</)?.[1];
+    const title = text(b.match(/head--title">([\s\S]*?)<\/div>/)?.[1] ?? '');
+    const act = text(b.match(/head--act">([\s\S]*?)<\/div>/)?.[1] ?? '');
+    if (!m || !d || !(title || act)) return [];
+    const start = iso(inferYear(Number(m), today), Number(m), Number(d));
+    const name = title && act ? title + '（' + act + '）' : title || act;
+    const times = b.match(/OPEN\/START<\/dt>\s*<dd>([^<]*)</)?.[1];
+    return [{ id: 'janus:' + start + ':' + name, title: name, category: 'concert', start, startTime: hhmm(times?.split('/')[1]), status: status(name), url }];
+  });
+}
+
+/** ザ・シンフォニーホール ?ym=: <a href="…/event/123"><article><time>2026年10月1日(木) 19:00 開演</time> … <h3>title</h3> */
+export function parseSymphony(html: string): Parsed[] {
+  return [...html.matchAll(/<a href="(https:\/\/www\.symphonyhall\.jp\/event\/\d+)"[^>]*>\s*<article>([\s\S]*?)<\/article>/g)].flatMap(([, href, b]) => {
+    const t = b.match(/<time>(\d{4})年(\d{1,2})月(\d{1,2})日([^<]*)<\/time>/);
+    const title = text(b.match(/<h3>([\s\S]*?)<\/h3>/)?.[1] ?? '').replace(/\n\s*/g, ' ');
+    if (!t || !title) return [];
+    const start = iso(Number(t[1]), Number(t[2]), Number(t[3]));
+    return [{ id: 'symphony:' + href.match(/\d+$/)?.[0], title, category: 'concert', start, startTime: hhmm(t[4]), status: status(title), url: href }];
+  });
+}
+
+/** 大阪城ホール (upcoming list): <span class="date">2026/10/14</span><span class="bg">音楽・芸能</span> … event-ttl"><a href>title</a> … 開演 18:30 */
+export function parseJohall(html: string, _today: string, url: string): Parsed[] {
+  return [...html.matchAll(/<dl>\s*<dt class="event-genre">([\s\S]*?)<\/dl>/g)].flatMap(([, b]) => {
+    const d = b.match(/class="date">(\d{4})\/(\d{1,2})\/(\d{1,2})</);
+    const a = b.match(/event-ttl"><a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
+    if (!d || !a) return [];
+    const title = text(a[2]);
+    const start = iso(Number(d[1]), Number(d[2]), Number(d[3]));
+    return [{
+      id: 'johall:' + start + ':' + title, title, category: /音楽/.test(b) ? 'concert' : 'other', start,
+      startTime: hhmm(b.match(/開演<\/span>\s*<span class="d-txt">([^<]*)</)?.[1]), status: status(title), url: /^https?:/.test(a[1]) ? a[1] : url,
+    }];
+  });
+}
+
 // ---------- sources ----------
 
 /** This month and the next two, as [year, month]. */
@@ -165,6 +233,11 @@ export const SCHEDULES: Schedule[] = [
   { id: 'festivalhall', venue: 'festivalhall', // ~10 events a page, soonest first; 5 pages covers roughly two months.
     urls: () => [1, 2, 3, 4, 5].map((n) => `https://www.festivalhall.jp/events/${n > 1 ? `page/${n}/` : ''}`), parse: parseFestivalHall },
   { id: 'bigcat', venue: 'bigcat', urls: () => ['https://bigcat-live.com/'], parse: parseBigcat },
+  { id: 'metro-kyoto', venue: 'metro-kyoto', urls: () => ['https://www.metro.ne.jp/schedule/?ical=1'], parse: parseIcal },
+  { id: 'urbanguild', venue: 'urbanguild', urls: () => ['https://urbanguild.net/?ical=1'], parse: parseIcal },
+  { id: 'janus', venue: 'janus', urls: (t) => months(t).map(([y, m]) => 'https://janusosaka.com/schedule/' + y + '-' + pad(m) + '/'), parse: parseJanus },
+  { id: 'symphonyhall', venue: 'symphonyhall', urls: (t) => months(t).map(([y, m]) => 'https://www.symphonyhall.jp/event?ym=' + y + '-' + pad(m)), parse: parseSymphony },
+  { id: 'osaka-johall', venue: 'osaka-johall', urls: () => ['https://www.osaka-johall.com/event/'], parse: parseJohall },
   { id: 'rohm-theatre', venue: 'rohm-theatre', urls: () => ['https://rohmtheatrekyoto.jp/program/'], parse: parseRohm },
 ];
 

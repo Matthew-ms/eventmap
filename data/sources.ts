@@ -85,4 +85,11 @@ export const sources: Source[] = [
   { id: 'kuramadera-gyouji', kind: 'page', name: '鞍馬寺 年中行事 (鞍馬の火祭 10/22)', url: 'https://www.kuramadera.or.jp/gyouji.html', checked: '2026-10-14' },
   { id: 'gozan-okuribi', kind: 'link', name: '京都五山送り火連合会', url: 'https://www.gozan-okuribi.com/', checked: '2026-10-14' },
   { id: 'yasaka-home', kind: 'link', name: '八坂神社 (blocks bots: 503)', url: 'https://www.yasaka-jinja.or.jp/', checked: '2026-10-14' },
+
+  // --- Concert venues, second pass (2026-10-14) ---
+  { id: 'metro-kyoto', kind: 'scraper', name: 'CLUB METRO iCal feed', url: 'https://www.metro.ne.jp/schedule/?ical=1', checked: '2026-10-14' },
+  { id: 'janus', kind: 'scraper', name: '心斎橋JANUS スケジュール', url: 'https://janusosaka.com/schedule', checked: '2026-10-14' },
+  { id: 'symphonyhall', kind: 'scraper', name: 'ザ・シンフォニーホール 公演', url: 'https://www.symphonyhall.jp/event', checked: '2026-10-14' },
+  { id: 'osaka-johall', kind: 'scraper', name: '大阪城ホール イベント', url: 'https://www.osaka-johall.com/event/', checked: '2026-10-14' },
+  { id: 'urbanguild', kind: 'scraper', name: 'UrBANGUILD iCal feed', url: 'https://urbanguild.net/?ical=1', checked: '2026-10-14' },
 ];
