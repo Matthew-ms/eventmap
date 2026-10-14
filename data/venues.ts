@@ -72,4 +72,15 @@ export const venues: Venue[] = [
   { id: 'symphonyhall', name: 'ザ・シンフォニーホール', nameEn: 'The Symphony Hall', aliases: ['シンフォニーホール'], lat: 34.70121, lon: 135.486145, url: 'https://www.symphonyhall.jp/' },
   { id: 'osaka-johall', name: '大阪城ホール', nameEn: 'Osaka-jo Hall', aliases: ['城ホール'], lat: 34.689117, lon: 135.534195, url: 'https://www.osaka-johall.com/' },
   { id: 'urbanguild', name: 'UrBANGUILD', nameEn: 'UrBANGUILD', aliases: ['アーバンギルド'], lat: 35.00761, lon: 135.770767, url: 'https://urbanguild.net/' },
+  // Shrine batch 2b (2026-10-14)
+  { id: 'matsunoo', name: '松尾大社', nameEn: 'Matsunoo Taisha', aliases: ['松尾さん', 'Matsuo Taisha'], lat: 35.000652, lon: 135.682739, url: 'https://www.matsunoo.or.jp/',
+    photo: { file: "Matsunoo-taisha_honden-1.JPG", author: "Saigen Jiro", licence: 'CC0' } },
+  { id: 'seimei', name: '晴明神社', nameEn: 'Seimei Shrine', aliases: ['安倍晴明'], lat: 35.027412, lon: 135.751175, url: 'https://www.seimeijinja.jp/',
+    photo: { file: "Seimei_Jinja,_Worship_Place_and_Main_Sanctuary_002.jpg", author: "Naokijp", licence: 'CC BY-SA 4.0' } },
+  { id: 'kifune', name: '貴船神社', nameEn: 'Kifune Shrine', aliases: ['貴船', 'Kibune'], lat: 35.121422, lon: 135.76181, url: 'https://kifunejinja.jp/',
+    photo: { file: "Kibune_Shinto_Shrine001.jpg", author: "東京特許許可局", licence: 'CC BY-SA 3.0' } },
+  { id: 'hirano', name: '平野神社', nameEn: 'Hirano Shrine', aliases: ['桜'], lat: 35.032372, lon: 135.732407, url: 'https://www.hiranojinja.com/',
+    photo: { file: "Hirano-jinja_(Kyoto,_Kyoto)_haisho.JPG", author: "Saigen Jiro", licence: 'CC0' } },
+  // Pinned at the 十三 riverbank, mid-way along the designated 淀川河川敷 stretch (花川1 → 西中島2).
+  { id: 'yodogawa-juso', name: '淀川河川敷（十三・西中島）', nameEn: 'Yodo River banks (Jūsō)', aliases: ['淀川', '十三', 'なにわ淀川花火'], lat: 34.7148, lon: 135.4835 },
 ];

@@ -92,4 +92,15 @@ export const sources: Source[] = [
   { id: 'symphonyhall', kind: 'scraper', name: 'ザ・シンフォニーホール 公演', url: 'https://www.symphonyhall.jp/event', checked: '2026-10-14' },
   { id: 'osaka-johall', kind: 'scraper', name: '大阪城ホール イベント', url: 'https://www.osaka-johall.com/event/', checked: '2026-10-14' },
   { id: 'urbanguild', kind: 'scraper', name: 'UrBANGUILD iCal feed', url: 'https://urbanguild.net/?ical=1', checked: '2026-10-14' },
+
+  // --- Shrine batch 2b (2026-10-14) ---
+  { id: 'matsunoo-event', kind: 'page', name: '松尾大社 年間祭儀予定', url: 'https://www.matsunoo.or.jp/event', checked: '2026-10-14' },
+  { id: 'seimei-event', kind: 'page', name: '晴明神社 年中行事', url: 'https://www.seimeijinja.jp/event/', checked: '2026-10-14' },
+  { id: 'kifune-event', kind: 'page', name: '貴船神社 祭典・神事', url: 'https://kifunejinja.jp/event/', checked: '2026-10-14' },
+  { id: 'hirano-nenchu', kind: 'page', name: '平野神社 年中行事', url: 'https://www.hiranojinja.com/home/gaiyo/nentyugyoji', checked: '2026-10-14' },
+
+  // --- Osaka City Fire Bureau 指定催し (far fewer than Kyoto: one or two at a time) ---
+  // The list page is watched so each new designation opens an issue.
+  { id: 'osaka-shitei-list', kind: 'page', name: '大阪市 指定催し一覧', url: 'https://www.city.osaka.lg.jp/shobo/page/0000460231.html', checked: '2026-10-14' },
+  { id: 'osaka-notice-r081009', kind: 'notice', name: '大阪市（消）告示第28号 (2026-10-09)', url: 'https://www.city.osaka.lg.jp/shobo/cmsfiles/contents/0000460/460231/naniwayodogawa.pdf', checked: '2026-10-14' },
 ];

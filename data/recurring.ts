@@ -5,6 +5,10 @@ import type { Recurring } from './model.ts';
 const KITANO = 'https://kitanotenmangu.or.jp/event/';
 const KIYOMIZU = 'https://www.kiyomizudera.or.jp/event/';
 const KAMIGAMO = 'https://www.kamigamojinja.jp/';
+const MATSUNOO = 'https://www.matsunoo.or.jp/event';
+const SEIMEI = 'https://www.seimeijinja.jp/event/';
+const KIFUNE = 'https://kifunejinja.jp/event/';
+const HIRANO = 'https://www.hiranojinja.com/home/gaiyo/nentyugyoji';
 const SUMIYOSHI = 'https://www.sumiyoshitaisha.net/events/special.html';
 
 export const recurring: Recurring[] = [
@@ -172,4 +176,50 @@ export const recurring: Recurring[] = [
     rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=17', startTime: '09:00', price: 0, source: 'https://www.yasaka-jinja.or.jp/', confirmed: '2026-10-14' },
   { id: 'gion-ato-junko', venue: 'gion-yamaboko', title: '祇園祭 後祭 山鉾巡行', titleEn: 'Gion Matsuri float parade (Ato Matsuri)', category: 'festival',
     rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=24', startTime: '09:30', price: 0, source: 'https://www.yasaka-jinja.or.jp/', confirmed: '2026-10-14' },
+
+  // --- Shrine batch 2b (2026-10-14): fixed calendar dates only; weekday/lunar/equinox ones are in dated.ts or skipped ---
+  // 松尾大社
+  { id: 'matsunoo-saitan', venue: 'matsunoo', title: '歳旦祭', titleEn: 'New Year Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1', startTime: '06:00', price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  { id: 'matsunoo-reisai', venue: 'matsunoo', title: '例祭', titleEn: 'Annual Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=2', startTime: '10:00', price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  { id: 'matsunoo-yamabuki', venue: 'matsunoo', title: '山吹まつり', titleEn: 'Yamabuki (kerria) Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=10', days: 26, price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  { id: 'matsunoo-koinobori', venue: 'matsunoo', title: 'こいのぼり こどもまつり', titleEn: "Carp Streamer Children's Festival", category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=5', startTime: '10:00', price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  { id: 'matsunoo-oharae', venue: 'matsunoo', title: '大祓式', titleEn: 'Summer Purification', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', startTime: '15:00', price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  { id: 'matsunoo-tanabata', venue: 'matsunoo', title: '七夕まつり', titleEn: 'Tanabata Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=7', startTime: '18:30', price: 0, source: MATSUNOO, confirmed: '2026-10-14' },
+  // 晴明神社 (晴明祭 follows the autumn equinox: see dated.ts)
+  { id: 'seimei-saitan', venue: 'seimei', title: '歳旦祭', titleEn: 'New Year Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1', startTime: '08:00', price: 0, source: SEIMEI, confirmed: '2026-10-14' },
+  { id: 'seimei-ohitaki', venue: 'seimei', title: '御火焚祭', titleEn: 'Ohitaki Fire Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=23', price: 0, source: SEIMEI, confirmed: '2026-10-14' },
+  // 貴船神社
+  { id: 'kifune-wakana', venue: 'kifune', title: '若菜神事', titleEn: 'Young Greens Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=7', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-touka', venue: 'kifune', title: '桃花神事', titleEn: 'Peach Blossom Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=3', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-amagoi', venue: 'kifune', title: '雨乞祭', titleEn: 'Rain Prayer Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=3;BYMONTHDAY=9', startTime: '10:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-shobu', venue: 'kifune', title: '菖蒲神事', titleEn: 'Iris Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=5;BYMONTHDAY=5', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-matsuri', venue: 'kifune', title: '貴船祭（例祭）', titleEn: 'Kifune Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=1', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-mizumatsuri', venue: 'kifune', title: '貴船の水まつり・七夕神事', titleEn: 'Water Festival & Tanabata', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=7', startTime: '10:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-kikka', venue: 'kifune', title: '菊花神事', titleEn: 'Chrysanthemum Ritual', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=9', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  { id: 'kifune-ohitaki', venue: 'kifune', title: '御火焚祭', titleEn: 'Ohitaki Fire Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=11;BYMONTHDAY=7', startTime: '11:00', price: 0, source: KIFUNE, confirmed: '2026-10-14' },
+  // 平野神社
+  { id: 'hirano-saitan', venue: 'hirano', title: '歳旦祭', titleEn: 'New Year Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=1;BYMONTHDAY=1', startTime: '07:00', price: 0, source: HIRANO, confirmed: '2026-10-14' },
+  { id: 'hirano-oukasai', venue: 'hirano', title: '桜花祭（神幸祭）', titleEn: 'Ōka-sai Cherry Blossom Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=10', startTime: '10:00', price: 0, source: HIRANO, confirmed: '2026-10-14' },
+  { id: 'hirano-nagoshi', venue: 'hirano', title: '夏越大祓式', titleEn: 'Summer Purification', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', startTime: '16:00', price: 0, source: HIRANO, confirmed: '2026-10-14' },
+  { id: 'hirano-houtou', venue: 'hirano', title: '奉灯祭', titleEn: 'Lantern Festival', category: 'shrine_temple',
+    rrule: 'FREQ=YEARLY;BYMONTH=9;BYMONTHDAY=14', startTime: '18:00', price: 0, source: HIRANO, confirmed: '2026-10-14' },
 ];

@@ -55,6 +55,20 @@ export const dated: Dated[] = [
   { id: 'kishiwada-danjiri-oct-2027', venue: 'kishiwada', title: '岸和田だんじり祭（10月祭礼・山手地区）', titleEn: 'Kishiwada Danjiri Festival (October, Yamate)', category: 'festival',
     start: '2027-10-09', end: '2027-10-10', price: 0, source: 'https://www.city.kishiwada.lg.jp/site/danjiri/', confirmed: '2026-10-14' },
 
+  // 晴明祭 = 秋分日 (2027: Sep 23); 宵宮祭 the evening before. 節分 2027 = Feb 3.
+  { id: 'seimei-yoimiya-2027', venue: 'seimei', title: '晴明祭 宵宮祭', titleEn: 'Seimei Festival eve', category: 'festival',
+    start: '2027-09-22', startTime: '19:00', price: 0, source: 'https://www.seimeijinja.jp/event/', confirmed: '2026-10-14' },
+  { id: 'seimei-matsuri-2027', venue: 'seimei', title: '晴明祭（例祭・神幸祭）', titleEn: 'Seimei Festival & procession', category: 'festival',
+    start: '2027-09-23', startTime: '10:00', price: 0, source: 'https://www.seimeijinja.jp/event/', confirmed: '2026-10-14' },
+  { id: 'seimei-setsubun-2027', venue: 'seimei', title: '節分星祭', titleEn: 'Setsubun Star Festival', category: 'shrine_temple',
+    start: '2027-02-03', price: 0, source: 'https://www.seimeijinja.jp/event/', confirmed: '2026-10-14' },
+  { id: 'kifune-setsubun-2027', venue: 'kifune', title: '節分祭', titleEn: 'Setsubun Festival', category: 'shrine_temple',
+    start: '2027-02-03', startTime: '11:00', price: 0, source: 'https://kifunejinja.jp/event/', confirmed: '2026-10-14' },
+
+  // Fireworks: 大阪市消防局 指定催し notice 告示第28号 (2026-10-09).
+  { id: 'naniwa-yodogawa-hanabi-2026', venue: 'yodogawa-juso', title: '第38回なにわ淀川花火大会', titleEn: 'Naniwa Yodogawa Fireworks', category: 'fireworks',
+    start: '2026-10-17', price: null, source: 'https://www.city.osaka.lg.jp/shobo/cmsfiles/contents/0000460/460231/naniwayodogawa.pdf', confirmed: '2026-10-14' },
+
   // Autumn 2026 special openings / light-ups (dates change every year)
   { id: 'kiyomizu-night-autumn-2026', venue: 'kiyomizudera', title: '秋の夜間特別拝観', titleEn: 'Autumn night viewing', category: 'shrine_temple',
     start: '2026-11-21', end: '2026-11-30', endTime: '21:30', price: null, source: 'https://www.kiyomizudera.or.jp/event/', confirmed: '2026-10-13' },

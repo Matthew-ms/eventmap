@@ -7,7 +7,7 @@ Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Ma
 |---|---|---|
 | A — Map and list view | ✅ Done 2026-10-13 | Seed: 15 recurring + 2 dated events at 6 venues. "Near me" not yet tested on a real phone (user to try). |
 | B — Reliable sources | ✅ Done 2026-10-14 | Source registry, Osaka parks CSV, page-change watcher, Kyoto gazette watcher, `npm run check`. Nightly run verified 2026-10-14; the issue path has not fired yet. |
-| C — Coverage per type | 🔄 Second pass started 2026-10-14 | First pass done (see "Coverage"). Second pass order: concerts (more live houses) → Kyoto shrines → 2 more festivals → Osaka City gazette check for markets. Dept stores stay blocked (no ticket-site scraping either: user agreed 2026-10-14). |
+| C — Coverage per type | 🔄 Second pass 2026-10-14: concerts, shrines, festivals done; markets and dept stores still short | See "Coverage". Remaining gaps need methods beyond our current approach (permission emails, a real browser for JavaScript sites, organiser submissions). |
 | Images | ✅ Done 2026-10-14 | 22 venues have a Wikimedia Commons lead photo (from the ja.wikipedia article) shown in the popup with author + licence credit. Wikimedia robots.txt closes its APIs (/w/, SPARQL) to bots, so photos are looked up via normal /wiki/ pages by `scripts/venue-photo.ts` and stored in `data/venues.ts`. Osaka parks `画像` column still unused (image licence unconfirmed). |
 | Fireworks | ⏳ Apr–Jun 2027 | |
 
@@ -15,13 +15,13 @@ Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Ma
 ### Coverage (2026-10-14)
 | Type | Now | Target | Gap / why |
 |---|---|---|---|
-| Markets | 11 series + Osaka park markets | ≥ 20 | Osaka market sources are Instagram-only or commercial event sites |
-| Shrine/temple | ~53 dates/yr, 20+ venues | ≥ 60 | Close; 知恩院 excluded (AI opt-out) |
-| Festivals | 28 dates/yr | ≥ 30 | 2026-10-14: added 鞍馬の火祭 (鞍馬寺 年中行事 page), plus 五山送り火, 祇園祭 山鉾巡行 (前祭/後祭) and 岸和田だんじり 2027 from common knowledge with the best official link. Replace 岸和田 with the official 2027 schedule when the watched city page changes. |
+| Markets | 11 series + Osaka park markets | ≥ 20 | Osaka market sources are Instagram-only or commercial event sites. Osaka City's 指定催し list (checked 2026-10-14) holds only 1–2 big events at a time, so it doesn't help markets |
+| Shrine/temple | ✅ 73 dates/yr, 25+ venues (added 松尾大社, 晴明神社, 貴船神社, 平野神社) | ≥ 60 | Met. 知恩院 excluded (AI opt-out); 今宮神社, 三十三間堂, 大報恩寺 don't answer our bot |
+| Festivals | ✅ 32 dates/yr | ≥ 30 | Met (貴船祭, 平野 桜花祭, 晴明祭 2027 added). 2026-10-14: added 鞍馬の火祭 (鞍馬寺 年中行事 page), plus 五山送り火, 祇園祭 山鉾巡行 (前祭/後祭) and 岸和田だんじり 2027 from common knowledge with the best official link. Replace 岸和田 with the official 2027 schedule when the watched city page changes. |
 | Dept stores | 1 store (近鉄 あべのハルカス), ~7 催事 | 6–8 stores | 大丸 (dmdepart.jp) returns 403 to our bot; 阪神, 髙島屋, JR京都伊勢丹 (mistore.jp) don't answer our bot; 阪急 renders with JavaScript |
 | Concerts | 11 venues, ~350 shows through Dec: Zepp Namba, Zepp Osaka Bayside, 梅田QUATTRO, フェスティバルホール, 心斎橋BIGCAT, 心斎橋JANUS, ザ・シンフォニーホール, 大阪城ホール (Osaka); ロームシアター京都, CLUB METRO, UrBANGUILD (Kyoto, the last two via iCal feeds) | 15–20 venues | 京都コンサートホール renders with JavaScript; なんばHatch, BananaHall, Pangea, FANJ twice, VOXhall don't answer our bot (or the guessed domain was wrong); umeda TRAD closed 2024; Billboard Live, 京都MUSE, 磔磔, 拾得 show no parseable dates. Public halls (フェニーチェ堺, メイシアター, アルティ) not yet probed. |
 | Free-entry | price 0 on markets/festivals/shrines | weekends covered | Met in Kyoto; scraped events have price unknown |
-| Fireworks | — | ≥ 30 | Apr–Jun 2027 |
+| Fireworks | 1 (なにわ淀川花火大会 2026-10-17, from Osaka City 指定催し notice) | ≥ 30 | Apr–Jun 2027; Osaka City list page now watched |
 
 Scraped events are facts + link only (user decision 2026-10-14). Each scraper has a fixture test; a scraper returning 0 events opens an issue.
 
