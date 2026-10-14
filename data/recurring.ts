@@ -161,4 +161,15 @@ export const recurring: Recurring[] = [
     rrule: 'FREQ=YEARLY;BYMONTH=6;BYMONTHDAY=30', days: 3, startTime: '12:00', price: 0, source: 'http://www.aizendo.com/festival.htm', confirmed: '2026-10-14' },
   { id: 'tenjin-matsuri', venue: 'osaka-tenmangu', title: '天神祭', titleEn: 'Tenjin Matsuri', category: 'festival',
     rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=24', days: 2, price: 0, source: 'https://osaka-info.jp/spot/osakatenmangu/', confirmed: '2026-10-14' },
+
+  // --- Major festivals added 2026-10-14 at the user's request ---
+  { id: 'kurama-hi-matsuri', venue: 'yuki-jinja', title: '鞍馬の火祭', titleEn: 'Kurama Fire Festival', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=22', price: 0, source: 'https://www.kuramadera.or.jp/gyouji.html', confirmed: '2026-10-14' },
+  // COMMON KNOWLEDGE, not stated on the linked page (best available official link; user decision 2026-10-14).
+  { id: 'gozan-okuribi', venue: 'daimonji', title: '京都五山送り火', titleEn: 'Gozan no Okuribi bonfires', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=16', startTime: '20:00', price: 0, source: 'https://www.gozan-okuribi.com/', confirmed: '2026-10-14' },
+  { id: 'gion-saki-junko', venue: 'gion-yamaboko', title: '祇園祭 前祭 山鉾巡行', titleEn: 'Gion Matsuri float parade (Saki Matsuri)', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=17', startTime: '09:00', price: 0, source: 'https://www.yasaka-jinja.or.jp/', confirmed: '2026-10-14' },
+  { id: 'gion-ato-junko', venue: 'gion-yamaboko', title: '祇園祭 後祭 山鉾巡行', titleEn: 'Gion Matsuri float parade (Ato Matsuri)', category: 'festival',
+    rrule: 'FREQ=YEARLY;BYMONTH=7;BYMONTHDAY=24', startTime: '09:30', price: 0, source: 'https://www.yasaka-jinja.or.jp/', confirmed: '2026-10-14' },
 ];

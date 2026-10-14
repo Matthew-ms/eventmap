@@ -4,6 +4,8 @@
 //                  page text and opens a GitHub issue when it changes, so the entry gets re-checked.
 // kind 'opendata': machine-readable dataset fetched daily by scripts/sources/<id>.ts.
 // kind 'scraper':  schedule page scraped daily by scripts/sources/schedules.ts (facts + link only).
+// kind 'link':     best available official link for a common-knowledge date; the page itself doesn't state it
+//                  (or blocks bots). Not watched.
 // kind 'notice':   fixed official notice (e.g. Kyoto gazette PDF). Never changes, so not watched.
 //
 // `checked`: date the robots.txt and terms/licence were last reviewed.
@@ -12,7 +14,7 @@ export interface Source {
   id: string;
   url: string;
   name: string;
-  kind: 'page' | 'opendata' | 'notice' | 'scraper';
+  kind: 'page' | 'opendata' | 'notice' | 'scraper' | 'link';
   licence?: string; // only for open data; pages are used for facts only
   attribution?: string; // HTML shown in the map credits, if the licence requires it
   checked: string;
@@ -78,4 +80,9 @@ export const sources: Source[] = [
   { id: 'festivalhall', kind: 'scraper', name: 'フェスティバルホール 公演', url: 'https://www.festivalhall.jp/events/', checked: '2026-10-14' },
   { id: 'rohm-theatre', kind: 'scraper', name: 'ロームシアター京都 プログラム', url: 'https://rohmtheatrekyoto.jp/program/', checked: '2026-10-14' },
   { id: 'bigcat', kind: 'scraper', name: '心斎橋BIGCAT スケジュール', url: 'https://bigcat-live.com/', checked: '2026-10-14' },
+
+  // --- Major festivals (2026-10-14, user request) ---
+  { id: 'kuramadera-gyouji', kind: 'page', name: '鞍馬寺 年中行事 (鞍馬の火祭 10/22)', url: 'https://www.kuramadera.or.jp/gyouji.html', checked: '2026-10-14' },
+  { id: 'gozan-okuribi', kind: 'link', name: '京都五山送り火連合会', url: 'https://www.gozan-okuribi.com/', checked: '2026-10-14' },
+  { id: 'yasaka-home', kind: 'link', name: '八坂神社 (blocks bots: 503)', url: 'https://www.yasaka-jinja.or.jp/', checked: '2026-10-14' },
 ];

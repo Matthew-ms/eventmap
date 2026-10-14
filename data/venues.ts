@@ -64,4 +64,7 @@ export const venues: Venue[] = [
   { id: 'festivalhall', name: 'フェスティバルホール', nameEn: 'Festival Hall', aliases: ['Festival Hall'], lat: 34.693626, lon: 135.496872, url: 'https://www.festivalhall.jp/' },
   { id: 'rohm-theatre', name: 'ロームシアター京都', nameEn: 'ROHM Theatre Kyoto', aliases: ['京都会館'], lat: 35.014297, lon: 135.781448, url: 'https://rohmtheatrekyoto.jp/' },
   { id: 'bigcat', name: '心斎橋BIGCAT', nameEn: 'Shinsaibashi BIGCAT', aliases: ['ビッグキャット', 'BIG CAT'], lat: 34.671967, lon: 135.498718, url: 'https://bigcat-live.com/' },
+  { id: 'yuki-jinja', name: '由岐神社（鞍馬）', nameEn: 'Yuki Shrine, Kurama', aliases: ['鞍馬', '鞍馬寺', 'Kurama'], lat: 35.114468, lon: 135.768997 },
+  { id: 'daimonji', name: '大文字山（五山送り火）', nameEn: 'Mt. Daimonji (Gozan no Okuribi)', aliases: ['大文字', '五山送り火', 'Daimonji'], lat: 35.019666, lon: 135.811747 },
+  { id: 'kishiwada', name: '岸和田だんじり会館', nameEn: 'Kishiwada Danjiri Hall', aliases: ['岸和田', 'だんじり'], lat: 34.459217, lon: 135.368195, url: 'https://www.city.kishiwada.lg.jp/site/danjiri/' },
 ];

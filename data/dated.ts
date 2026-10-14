@@ -48,6 +48,13 @@ export const dated: Dated[] = [
   { id: 'mibu-setsubun-2027', venue: 'mibudera', title: '壬生寺節分会', titleEn: 'Mibu-dera Setsubun', category: 'festival',
     start: '2027-02-02', end: '2027-02-03', price: 0, source: 'https://www2.city.kyoto.lg.jp/somu/bunsyo/kouhou/r0801/0116/0116_6.pdf', confirmed: '2026-10-14' },
 
+  // 岸和田だんじり 2027: COMMON-KNOWLEDGE rule (Sat–Sun before 敬老の日 / before スポーツの日; matches 2026 on the
+  // city page). The city page is watched; replace with the official schedule when it is published.
+  { id: 'kishiwada-danjiri-sep-2027', venue: 'kishiwada', title: '岸和田だんじり祭（9月祭礼）', titleEn: 'Kishiwada Danjiri Festival (September)', category: 'festival',
+    start: '2027-09-18', end: '2027-09-19', price: 0, source: 'https://www.city.kishiwada.lg.jp/site/danjiri/', confirmed: '2026-10-14' },
+  { id: 'kishiwada-danjiri-oct-2027', venue: 'kishiwada', title: '岸和田だんじり祭（10月祭礼・山手地区）', titleEn: 'Kishiwada Danjiri Festival (October, Yamate)', category: 'festival',
+    start: '2027-10-09', end: '2027-10-10', price: 0, source: 'https://www.city.kishiwada.lg.jp/site/danjiri/', confirmed: '2026-10-14' },
+
   // Autumn 2026 special openings / light-ups (dates change every year)
   { id: 'kiyomizu-night-autumn-2026', venue: 'kiyomizudera', title: '秋の夜間特別拝観', titleEn: 'Autumn night viewing', category: 'shrine_temple',
     start: '2026-11-21', end: '2026-11-30', endTime: '21:30', price: null, source: 'https://www.kiyomizudera.or.jp/event/', confirmed: '2026-10-13' },

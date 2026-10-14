@@ -120,6 +120,7 @@ Filled in during planning. Each entry: the decision, and why.
 - **Rules with a known end use `UNTIL`** (e.g. a fire-designation window). `npm run check` warns when one has run out instead of failing the build.
 - **`price: 0` means open-access** (temple grounds, public parks/streets): free to attend even if stalls sell things. Use `null` when the source gives no basis.
 - **Dept store and concert schedules are scraped as facts only** (title, date, start time) with a link to each event's official page, even though those sites' terms forbid "secondary use" of content (user decision 2026-10-14). Still obey robots.txt and AI opt-outs, skip any site that blocks our bot (e.g. 大丸 403), and drop a site at once if it objects. Prices are not scraped. Parsers live in `scripts/sources/schedules.ts`, each with a fixture test.
+- **Common-knowledge dates are allowed for major festivals with no reachable official source** (user decision 2026-10-14): mark them `// COMMON KNOWLEDGE` in the data and register the link as source kind `link`. Applied to 五山送り火, 祇園祭 山鉾巡行, 岸和田だんじり 2027.
 - **Venue photos come only from Wikimedia Commons**, stored per venue (`photo: { file, author, licence }`) and credited in the popup. Pick the simplest licence to honour (CC0 > CC BY > CC BY-SA, never GFDL). Images load via Special:FilePath in the viewer's browser.
 - **Line endings are LF** (`.gitattributes`), so scripted edits never meet mixed CRLF/LF files again.
 - **Plan lives in `PLAN.md`.** Phases A (map/list) → B (reliable sources) → C (coverage per type).

@@ -18,7 +18,7 @@ Nightly job verified 2026-10-14 (run 38478500130): fetch, snapshot commit and re
 |---|---|---|---|
 | Markets | 11 series + Osaka park markets | ≥ 20 | Osaka market sources are Instagram-only or commercial event sites |
 | Shrine/temple | ~53 dates/yr, 20+ venues | ≥ 60 | Close; 知恩院 excluded (AI opt-out) |
-| Festivals | 22 dates/yr | ≥ 30 | 五山送り火, 鞍馬の火祭, 祇園祭 山鉾巡行 have no usable official source; 岸和田 2027 not announced (page watched) |
+| Festivals | 28 dates/yr | ≥ 30 | 2026-10-14: added 鞍馬の火祭 (鞍馬寺 年中行事 page), plus 五山送り火, 祇園祭 山鉾巡行 (前祭/後祭) and 岸和田だんじり 2027 from common knowledge with the best official link. Replace 岸和田 with the official 2027 schedule when the watched city page changes. |
 | Dept stores | 1 store (近鉄 あべのハルカス), ~7 催事 | 6–8 stores | 大丸 (dmdepart.jp) returns 403 to our bot; 阪神, 髙島屋, JR京都伊勢丹 (mistore.jp) don't answer our bot; 阪急 renders with JavaScript |
 | Concerts | 6 venues (Zepp Namba, Zepp Osaka Bayside, 梅田QUATTRO, フェスティバルホール, 心斎橋BIGCAT, ロームシアター京都), ~190 shows through Dec | 15–20 venues | 京都コンサートホール renders with JavaScript; Billboard Live, 京都MUSE show no parseable dates; ザ・シンフォニーホール and 大阪城ホール schedule URLs 404 (not investigated further) |
 | Free-entry | price 0 on markets/festivals/shrines | weekends covered | Met in Kyoto; scraped events have price unknown |
