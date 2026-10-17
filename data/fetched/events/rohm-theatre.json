@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "title": "KYOTO EXPERIMENT 京都国際舞台芸術祭 2026",
@@ -51,19 +51,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/148485/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
-  },
-  {
-   "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
-   "category": "other",
-   "status": "scheduled",
-   "id": "rohm:153064:2026-10-17",
-   "start": "2026-10-17",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/153064/",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
@@ -75,7 +63,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153064/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
@@ -87,20 +75,20 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153064/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
-   "title": "KYOTO EXPERIMENT 京都国際舞台芸術祭 2026 キム・カンヨン 『隠された村』 イ・ミンジン 『地平線のそばで（あいかわらず）』 パク・ミンヒ 『内聴の舞台』",
-   "category": "other",
+   "title": "ローム・スクエアライブ～オープンコールステージ～",
+   "category": "concert",
    "status": "scheduled",
-   "id": "rohm:155379",
-   "start": "2026-10-16",
-   "end": "2026-10-17",
+   "id": "rohm:157178",
+   "start": "2026-10-17",
+   "end": "2026-10-18",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/155379/",
+   "source": "https://rohmtheatrekyoto.jp/event/157178/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   }
  ]
 }

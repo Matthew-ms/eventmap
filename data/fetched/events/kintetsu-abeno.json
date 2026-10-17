@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610kyushu/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/pages/202610belgium_beer/",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610belgium_beer/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/pages/202610living_fair/",
@@ -38,33 +38,33 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610living_fair/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/harukas300conan/",
    "title": "名探偵コナンプラザ",
    "category": "department_store",
-   "start": "2026-10-17",
+   "start": "2026-10-18",
    "end": "2026-11-29",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://www.t-event.jp/harukas300conan/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/pages/202610expo_photo/",
    "title": "大阪・関西万博報道写真展",
    "category": "department_store",
-   "start": "2026-10-17",
+   "start": "2026-10-18",
    "end": "2026-10-19",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610expo_photo/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/pages/202610umaimon/",
@@ -77,7 +77,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610umaimon/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   },
   {
    "id": "kintetsu:/pages/202610belgium_food/",
@@ -90,7 +90,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610belgium_food/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-17"
+   "confirmed": "2026-10-18"
   }
  ]
 }
