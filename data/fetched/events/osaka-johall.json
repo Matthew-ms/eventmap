@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "johall:2026-10-18:Ms.OOJA",
-   "title": "Ms.OOJA",
-   "category": "concert",
-   "start": "2026-10-18",
-   "startTime": "17:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://www.yumebanchi.jp/event/45071/",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-18"
-  },
-  {
    "id": "johall:2026-10-23:緑黄色社会",
    "title": "緑黄色社会",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12737",
    "sourceType": "scraped",
-   "confirmed": "2026-10-18"
+   "confirmed": "2026-10-19"
   },
   {
    "id": "johall:2026-10-24:緑黄色社会",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12737",
    "sourceType": "scraped",
-   "confirmed": "2026-10-18"
+   "confirmed": "2026-10-19"
   },
   {
    "id": "johall:2026-10-25:絢香",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12573",
    "sourceType": "scraped",
-   "confirmed": "2026-10-18"
+   "confirmed": "2026-10-19"
   },
   {
    "id": "johall:2026-10-27:YURIN LIVE Vol.4 GUEST：コブクロ",
@@ -64,7 +51,7 @@
    "price": null,
    "source": "https://yuurinchi.com/contents/1093640",
    "sourceType": "scraped",
-   "confirmed": "2026-10-18"
+   "confirmed": "2026-10-19"
   },
   {
    "id": "johall:2026-10-28:YURIN LIVE Vol.5 GUEST：UVERworld",
@@ -77,7 +64,7 @@
    "price": null,
    "source": "https://yuurinchi.com/contents/1093640",
    "sourceType": "scraped",
-   "confirmed": "2026-10-18"
+   "confirmed": "2026-10-19"
   }
  ]
 }
