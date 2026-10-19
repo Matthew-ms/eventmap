@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
    "title": "KYOTO EXPERIMENT 京都国際舞台芸術祭 2026",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/148485/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
    "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
@@ -63,7 +63,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153064/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
    "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
@@ -75,19 +75,19 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153064/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   },
   {
-   "title": "玉置浩二 with 故郷楽団  Concert Tour 2026 ファンファーレ!!",
-   "category": "concert",
+   "title": "2026年度 舞台芸術プロデュース講座 プレ企画 ロン・ベリー（Fuseboxディレクター）を迎えて",
+   "category": "other",
    "status": "scheduled",
-   "id": "rohm:156838:2026-10-19",
-   "start": "2026-10-19",
+   "id": "rohm:157520:2026-10-20",
+   "start": "2026-10-20",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/156838/",
+   "source": "https://rohmtheatrekyoto.jp/event/157520/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-19"
+   "confirmed": "2026-10-20"
   }
  ]
 }
