@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12737",
    "sourceType": "scraped",
-   "confirmed": "2026-10-20"
+   "confirmed": "2026-10-21"
   },
   {
    "id": "johall:2026-10-24:緑黄色社会",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12737",
    "sourceType": "scraped",
-   "confirmed": "2026-10-20"
+   "confirmed": "2026-10-21"
   },
   {
    "id": "johall:2026-10-25:絢香",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/12573",
    "sourceType": "scraped",
-   "confirmed": "2026-10-20"
+   "confirmed": "2026-10-21"
   },
   {
    "id": "johall:2026-10-27:YURIN LIVE Vol.4 GUEST：コブクロ",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://yuurinchi.com/contents/1093640",
    "sourceType": "scraped",
-   "confirmed": "2026-10-20"
+   "confirmed": "2026-10-21"
   },
   {
    "id": "johall:2026-10-28:YURIN LIVE Vol.5 GUEST：UVERworld",
@@ -64,7 +64,20 @@
    "price": null,
    "source": "https://yuurinchi.com/contents/1093640",
    "sourceType": "scraped",
-   "confirmed": "2026-10-20"
+   "confirmed": "2026-10-21"
+  },
+  {
+   "id": "johall:2026-10-31:Livejack 2026 SMASH BEAT SP",
+   "title": "Livejack 2026 SMASH BEAT SP",
+   "category": "concert",
+   "start": "2026-10-31",
+   "startTime": "15:30",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://www.ktv.jp/event/livejack/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-21"
   }
  ]
 }
