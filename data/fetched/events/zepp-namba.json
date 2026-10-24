@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "zepp:161246",
-   "title": "KOJI YAMAMOTO 50th Anniversary Concert",
-   "category": "concert",
-   "start": "2026-10-24",
-   "startTime": "18:00",
-   "status": "scheduled",
-   "venue": "zepp-namba",
-   "price": null,
-   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161246",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-24"
-  },
-  {
    "id": "zepp:168307",
    "title": "みんがるSP in Zepp Namba",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=168307",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:164017",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=164017",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:165341",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165341",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:160538",
@@ -64,7 +51,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160538",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:155998",
@@ -77,7 +64,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=155998",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:159273",
@@ -89,7 +76,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159273",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:160302",
@@ -102,7 +89,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160302",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:153006",
@@ -115,7 +102,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=153006",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:153007",
@@ -128,7 +115,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=153007",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:165862",
@@ -141,7 +128,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165862",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:161104",
@@ -154,7 +141,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161104",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:163669",
@@ -167,7 +154,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163669",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:156904",
@@ -180,7 +167,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=156904",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:165144",
@@ -193,7 +180,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165144",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:160144",
@@ -206,7 +193,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160144",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:159402",
@@ -219,7 +206,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159402",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:160792",
@@ -232,7 +219,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160792",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:165026",
@@ -245,7 +232,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165026",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:161142",
@@ -257,7 +244,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161142",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:161144",
@@ -269,7 +256,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161144",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:163249",
@@ -282,7 +269,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163249",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:159275",
@@ -295,7 +282,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159275",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:155886",
@@ -307,7 +294,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=155886",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:161186",
@@ -319,7 +306,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161186",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   },
   {
    "id": "zepp:164121",
@@ -332,7 +319,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=164121",
    "sourceType": "scraped",
-   "confirmed": "2026-10-24"
+   "confirmed": "2026-10-25"
   }
  ]
 }
