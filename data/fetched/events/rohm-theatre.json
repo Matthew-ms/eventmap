@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,20 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
-  },
-  {
-   "title": "KYOTO EXPERIMENT 京都国際舞台芸術祭 2026",
-   "category": "concert",
-   "status": "scheduled",
-   "id": "rohm:148485",
-   "start": "2026-10-03",
-   "end": "2026-10-25",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/148485/",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
   },
   {
    "title": "ちっちゃい焚き火（薪ストーブ）を囲んで語らう会 2026",
@@ -63,7 +50,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153064/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -75,7 +62,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -87,7 +74,31 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-25"
+   "confirmed": "2026-10-26"
+  },
+  {
+   "title": "プッチーニ：『蝶々夫人』",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:147603:2026-10-26",
+   "start": "2026-10-26",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/147603/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-26"
+  },
+  {
+   "title": "プッチーニ：『蝶々夫人』",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:147603:2026-10-28",
+   "start": "2026-10-28",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/147603/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-26"
   }
  ]
 }
