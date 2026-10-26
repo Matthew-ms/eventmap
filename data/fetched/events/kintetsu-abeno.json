@@ -2,32 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "kintetsu:/pages/202610belgium_beer/",
-   "title": "ベルギービールと食の祭典",
-   "category": "department_store",
-   "start": "2026-10-21",
-   "end": "2026-10-26",
-   "status": "scheduled",
-   "venue": "kintetsu-abeno",
-   "price": null,
-   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610belgium_beer/",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-26"
-  },
-  {
-   "id": "kintetsu:/pages/202610living_fair/",
-   "title": "本年最後のリビングフェア",
-   "category": "department_store",
-   "start": "2026-10-21",
-   "end": "2026-10-26",
-   "status": "scheduled",
-   "venue": "kintetsu-abeno",
-   "price": null,
-   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610living_fair/",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-26"
-  },
-  {
    "id": "kintetsu:/pages/202610kids_bargain/",
    "title": "秋のベビー・こども服バーゲン",
    "category": "department_store",
@@ -38,7 +12,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610kids_bargain/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/pages/202610bebichhichi/",
@@ -51,7 +25,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610bebichhichi/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/pages/202610mofmof/",
@@ -64,20 +38,20 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610mofmof/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/harukas300conan/",
    "title": "名探偵コナンプラザ",
    "category": "department_store",
-   "start": "2026-10-26",
+   "start": "2026-10-27",
    "end": "2026-11-29",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://www.t-event.jp/harukas300conan/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/pages/202610oseibo/",
@@ -90,7 +64,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610oseibo/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/pages/202610belgium_food/",
@@ -103,7 +77,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610belgium_food/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   },
   {
    "id": "kintetsu:/pages/202610gissiri_kochi/",
@@ -116,7 +90,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610gissiri_kochi/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-26"
+   "confirmed": "2026-10-27"
   }
  ]
 }
