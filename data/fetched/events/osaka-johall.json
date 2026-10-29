@@ -2,71 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "johall:2026-10-23:緑黄色社会",
-   "title": "緑黄色社会",
-   "category": "concert",
-   "start": "2026-10-23",
-   "startTime": "19:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://kyodo-osaka.co.jp/search/detail/12737",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-22"
-  },
-  {
-   "id": "johall:2026-10-24:緑黄色社会",
-   "title": "緑黄色社会",
-   "category": "concert",
-   "start": "2026-10-24",
-   "startTime": "16:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://kyodo-osaka.co.jp/search/detail/12737",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-22"
-  },
-  {
-   "id": "johall:2026-10-25:絢香",
-   "title": "絢香",
-   "category": "concert",
-   "start": "2026-10-25",
-   "startTime": "17:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://kyodo-osaka.co.jp/search/detail/12573",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-22"
-  },
-  {
-   "id": "johall:2026-10-27:YURIN LIVE Vol.4 GUEST：コブクロ",
-   "title": "YURIN LIVE Vol.4 GUEST：コブクロ",
-   "category": "concert",
-   "start": "2026-10-27",
-   "startTime": "19:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://yuurinchi.com/contents/1093640",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-22"
-  },
-  {
-   "id": "johall:2026-10-28:YURIN LIVE Vol.5 GUEST：UVERworld",
-   "title": "YURIN LIVE Vol.5 GUEST：UVERworld",
-   "category": "concert",
-   "start": "2026-10-28",
-   "startTime": "18:30",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://yuurinchi.com/contents/1093640",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-22"
-  },
-  {
    "id": "johall:2026-10-31:Livejack 2026 SMASH BEAT SP",
    "title": "Livejack 2026 SMASH BEAT SP",
    "category": "concert",
@@ -77,7 +12,7 @@
    "price": null,
    "source": "https://www.ktv.jp/event/livejack/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-22"
+   "confirmed": "2026-10-30"
   },
   {
    "id": "johall:2026-11-01:千原ジュニアの座王 東西２大ライブツアー",
@@ -90,7 +25,46 @@
    "price": null,
    "source": "https://www.ktv.jp/event/zao/zaoosaka/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-22"
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "johall:2026-11-03:秦 基博",
+   "title": "秦 基博",
+   "category": "concert",
+   "start": "2026-11-03",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://www.greens-corp.co.jp/schedule/info/index.php?event_id=14119",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "johall:2026-11-07:GLAY",
+   "title": "GLAY",
+   "category": "concert",
+   "start": "2026-11-07",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://www.yumebanchi.jp/event/47854/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "johall:2026-11-08:GLAY",
+   "title": "GLAY",
+   "category": "concert",
+   "start": "2026-11-08",
+   "startTime": "16:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://www.yumebanchi.jp/event/47854/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
   }
  ]
 }

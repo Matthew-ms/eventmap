@@ -11,7 +11,7 @@
    "price": null,
    "source": "https://bigcat-live.com/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-29"
+   "confirmed": "2026-10-30"
   },
   {
    "id": "bigcat:2026-11-26:wave to earth – the pieces tour",
@@ -23,7 +23,19 @@
    "price": null,
    "source": "https://bigcat-live.com/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-29"
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "bigcat:2026-12-05:the engy LIVE TOUR 2026 vol.2 HIGH HOPES",
+   "title": "the engy LIVE TOUR 2026 vol.2 HIGH HOPES",
+   "category": "concert",
+   "start": "2026-12-05",
+   "status": "scheduled",
+   "venue": "bigcat",
+   "price": null,
+   "source": "https://bigcat-live.com/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
   },
   {
    "id": "bigcat:2026-12-11:NICE TO MEET YOU tour 2026",
@@ -35,7 +47,43 @@
    "price": null,
    "source": "https://bigcat-live.com/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-29"
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "bigcat:2026-12-24:DJ KRUSH “TOKYØHUM” JAPAN TOUR 2026",
+   "title": "DJ KRUSH “TOKYØHUM” JAPAN TOUR 2026",
+   "category": "concert",
+   "start": "2026-12-24",
+   "status": "scheduled",
+   "venue": "bigcat",
+   "price": null,
+   "source": "https://bigcat-live.com/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "bigcat:2027-01-27:RODRIGO Y GABRIELA",
+   "title": "RODRIGO Y GABRIELA",
+   "category": "concert",
+   "start": "2027-01-27",
+   "status": "scheduled",
+   "venue": "bigcat",
+   "price": null,
+   "source": "https://bigcat-live.com/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
+  },
+  {
+   "id": "bigcat:2027-02-26:Lonely In Paradise Japan Tour",
+   "title": "Lonely In Paradise Japan Tour",
+   "category": "concert",
+   "start": "2027-02-26",
+   "status": "scheduled",
+   "venue": "bigcat",
+   "price": null,
+   "source": "https://bigcat-live.com/",
+   "sourceType": "scraped",
+   "confirmed": "2026-10-30"
   },
   {
    "id": "bigcat:2027-03-26:Re:name BIGCAT ONEMAN LIVE",
@@ -47,7 +95,7 @@
    "price": null,
    "source": "https://bigcat-live.com/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-29"
+   "confirmed": "2026-10-30"
   }
  ]
 }
