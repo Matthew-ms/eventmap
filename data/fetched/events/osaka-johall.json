@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://www.ktv.jp/event/livejack/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-30"
+   "confirmed": "2026-10-31"
   },
   {
    "id": "johall:2026-11-01:千原ジュニアの座王 東西２大ライブツアー",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://www.ktv.jp/event/zao/zaoosaka/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-30"
+   "confirmed": "2026-10-31"
   },
   {
    "id": "johall:2026-11-03:秦 基博",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://www.greens-corp.co.jp/schedule/info/index.php?event_id=14119",
    "sourceType": "scraped",
-   "confirmed": "2026-10-30"
+   "confirmed": "2026-10-31"
   },
   {
    "id": "johall:2026-11-07:GLAY",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-30"
+   "confirmed": "2026-10-31"
   },
   {
    "id": "johall:2026-11-08:GLAY",
@@ -64,7 +64,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-10-30"
+   "confirmed": "2026-10-31"
   }
  ]
 }
