@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "symphony:2024138585",
-   "title": "横山幸雄 ドラマティック･コンチェルト！ ～横山幸雄デビュー35周年記念！～",
-   "category": "concert",
-   "start": "2026-10-31",
-   "startTime": "13:30",
-   "status": "scheduled",
-   "venue": "symphonyhall",
-   "price": null,
-   "source": "https://www.symphonyhall.jp/event/2024138585",
-   "sourceType": "scraped",
-   "confirmed": "2026-10-31"
-  },
-  {
    "id": "symphony:2024138840",
    "title": "SAISON PRESENTS ホセ・カレーラス テノール・リサイタル ～マイウェイ～",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138840",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138952",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138952",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138314",
@@ -50,7 +37,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138314",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138274",
@@ -63,7 +50,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138274",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139301",
@@ -76,7 +63,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139301",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024137690",
@@ -89,7 +76,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024137690",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138848",
@@ -102,7 +89,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138848",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139842",
@@ -115,7 +102,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139842",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139845",
@@ -128,7 +115,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139845",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139290",
@@ -140,7 +127,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139290",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138942",
@@ -152,7 +139,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138942",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139516",
@@ -165,7 +152,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139516",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138685",
@@ -178,7 +165,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138685",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138859",
@@ -191,7 +178,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138859",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138826",
@@ -204,7 +191,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138826",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138589",
@@ -217,7 +204,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138589",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139472",
@@ -230,7 +217,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139472",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139287",
@@ -243,7 +230,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139287",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138876",
@@ -256,7 +243,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138876",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138591",
@@ -269,7 +256,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138591",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139212",
@@ -282,7 +269,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139212",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138889",
@@ -295,7 +282,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138889",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139340",
@@ -308,7 +295,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139340",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139941",
@@ -321,7 +308,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139941",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139819",
@@ -334,7 +321,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139819",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138210",
@@ -347,7 +334,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138210",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138720",
@@ -360,7 +347,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138720",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139057",
@@ -373,7 +360,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139057",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138883",
@@ -386,7 +373,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138883",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138852",
@@ -399,7 +386,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138852",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139032",
@@ -412,7 +399,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139032",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139529",
@@ -425,7 +412,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139529",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139772",
@@ -438,7 +425,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139772",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139694",
@@ -451,7 +438,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139694",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139034",
@@ -464,7 +451,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139034",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139544",
@@ -477,7 +464,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139544",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139987",
@@ -490,7 +477,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139987",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139546",
@@ -502,7 +489,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139546",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139037",
@@ -515,7 +502,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139037",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138856",
@@ -528,7 +515,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138856",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024139379",
@@ -541,7 +528,7 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024139379",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
   },
   {
    "id": "symphony:2024138802",
@@ -554,7 +541,262 @@
    "price": null,
    "source": "https://www.symphonyhall.jp/event/2024138802",
    "sourceType": "scraped",
-   "confirmed": "2026-10-31"
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138806",
+   "title": "Keitaro Harada Produce ザ・シンフォニーホール ニューイヤー・コンサート2027",
+   "category": "concert",
+   "start": "2027-01-01",
+   "startTime": "15:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138806",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139880",
+   "title": "公演予定",
+   "category": "concert",
+   "start": "2027-01-03",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139880",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139506",
+   "title": "ジャパン・ヴィルトゥオーゾ・シンフォニー・オーケストラ 名手たちの交響楽団 ニューイヤーコンサート",
+   "category": "concert",
+   "start": "2027-01-04",
+   "startTime": "16:30",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139506",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139639",
+   "title": "貸切",
+   "category": "concert",
+   "start": "2027-01-05",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139639",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139882",
+   "title": "公演予定",
+   "category": "concert",
+   "start": "2027-01-06",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139882",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139285",
+   "title": "創立100年記念 N響ニューイヤーコンサート 大阪公演",
+   "category": "concert",
+   "start": "2027-01-07",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139285",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138524",
+   "title": "プラハ交響楽団",
+   "category": "concert",
+   "start": "2027-01-08",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138524",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139042",
+   "title": "21世紀の新世界",
+   "category": "concert",
+   "start": "2027-01-09",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139042",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139044",
+   "title": "ウィーン宮殿祝賀コンサート ～ウィンナー・ワルツ2027～",
+   "category": "concert",
+   "start": "2027-01-10",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139044",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138789",
+   "title": "前橋汀子 ヴァイオリン・スペシャル・コンサート",
+   "category": "concert",
+   "start": "2027-01-11",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138789",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139885",
+   "title": "公演予定",
+   "category": "concert",
+   "start": "2027-01-14",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139885",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139486",
+   "title": "大阪交響楽団 第292回定期演奏会  【英雄の夢】～ラヴェル没後90年～",
+   "category": "concert",
+   "start": "2027-01-15",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139486",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139592",
+   "title": "日本センチュリー交響楽団  第303回定期演奏会",
+   "category": "concert",
+   "start": "2027-01-16",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139592",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139047",
+   "title": "エリック・ルー ピアノ・リサイタル 2025年第19回ショパン国際ピアノ・コンクール優勝者",
+   "category": "concert",
+   "start": "2027-01-21",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139047",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139385",
+   "title": "Osaka Shion Wind Orchestra 第170回定期演奏会",
+   "category": "concert",
+   "start": "2027-01-23",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139385",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138854",
+   "title": "天野 薫 ピアノ・リサイタル",
+   "category": "concert",
+   "start": "2027-01-24",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138854",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139648",
+   "title": "公演予定",
+   "category": "concert",
+   "start": "2027-01-28",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139648",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138816",
+   "title": "The Symphony Hall デュオ・リサイタル シリーズ 郷古 廉＆ホセ・ガヤルド デュオ・リサイタル",
+   "category": "concert",
+   "start": "2027-01-29",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138816",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024139698",
+   "title": "ザ･シンフォニー特選コンサート Vol.35 小林研一郎 炎のタクト！ ～コバケンのベートーヴェン！メモリアル・イヤーに贈る「田園」「運命」～",
+   "category": "concert",
+   "start": "2027-01-30",
+   "startTime": "14:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024139698",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
+  },
+  {
+   "id": "symphony:2024138904",
+   "title": "TAKANORI OHYAMA WORLD TOUR LIVE ACCELERATE 2027",
+   "category": "concert",
+   "start": "2027-01-31",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "symphonyhall",
+   "price": null,
+   "source": "https://www.symphonyhall.jp/event/2024138904",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-01"
   }
  ]
 }
