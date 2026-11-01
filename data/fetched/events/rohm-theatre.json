@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -50,7 +50,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -62,20 +62,31 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
   },
   {
-   "title": "レパートリーの創造 ホープス  『吉日再会』",
+   "title": "ユスカル！～若者文化市～ 2026",
    "category": "other",
    "status": "scheduled",
-   "id": "rohm:148450",
-   "start": "2026-10-30",
-   "end": "2026-11-01",
+   "id": "rohm:148495:2026-11-03",
+   "start": "2026-11-03",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/148450/",
+   "source": "https://rohmtheatrekyoto.jp/event/148495/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-01"
+   "confirmed": "2026-11-02"
+  },
+  {
+   "title": "尾崎亜美 50th Amii-versary Concert Tour 2026",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:151268:2026-11-03",
+   "start": "2026-11-03",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/151268/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-02"
   }
  ]
 }
