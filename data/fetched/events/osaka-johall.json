@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "johall:2026-11-03:秦 基博",
-   "title": "秦 基博",
-   "category": "concert",
-   "start": "2026-11-03",
-   "startTime": "17:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://www.greens-corp.co.jp/schedule/info/index.php?event_id=14119",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-03"
-  },
-  {
    "id": "johall:2026-11-07:GLAY",
    "title": "GLAY",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-03"
+   "confirmed": "2026-11-04"
   },
   {
    "id": "johall:2026-11-08:GLAY",
@@ -38,7 +25,20 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-03"
+   "confirmed": "2026-11-04"
+  },
+  {
+   "id": "johall:2026-11-14:U-KNOW",
+   "title": "U-KNOW",
+   "category": "concert",
+   "start": "2026-11-14",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://kyodo-osaka.co.jp/search/detail/13343",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-04"
   }
  ]
 }
