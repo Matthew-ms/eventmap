@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-04"
+   "confirmed": "2026-11-05"
   },
   {
    "id": "johall:2026-11-08:GLAY",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-04"
+   "confirmed": "2026-11-05"
   },
   {
    "id": "johall:2026-11-14:U-KNOW",
@@ -38,7 +38,20 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/13343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-04"
+   "confirmed": "2026-11-05"
+  },
+  {
+   "id": "johall:2026-11-15:U-KNOW",
+   "title": "U-KNOW",
+   "category": "concert",
+   "start": "2026-11-15",
+   "startTime": "16:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://kyodo-osaka.co.jp/search/detail/13343",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-05"
   }
  ]
 }
