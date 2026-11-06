@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "id": "johall:2026-11-08:GLAY",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://www.yumebanchi.jp/event/47854/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "id": "johall:2026-11-14:U-KNOW",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/13343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "id": "johall:2026-11-15:U-KNOW",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/13343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   }
  ]
 }

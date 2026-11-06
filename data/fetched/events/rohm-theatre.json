@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -50,7 +50,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -62,7 +62,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
    "title": "レパートリーの創造 ホープス  新作『観光客』",
@@ -75,19 +75,19 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/148434/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   },
   {
-   "title": "MICHAEL LIVES FOREVER-JAPAN",
+   "title": "ももいろクローバーZ クリスマスツアー2026「ももクリDelivery」",
    "category": "concert",
    "status": "scheduled",
-   "id": "rohm:157554:2026-11-06",
-   "start": "2026-11-06",
+   "id": "rohm:159543:2026-11-07",
+   "start": "2026-11-07",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/157554/",
+   "source": "https://rohmtheatrekyoto.jp/event/159543/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-06"
+   "confirmed": "2026-11-07"
   }
  ]
 }
