@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "kintetsu:/pages/202611mens/",
-   "title": "メンズ大祭典",
-   "category": "department_store",
-   "start": "2026-11-04",
-   "end": "2026-11-10",
-   "status": "scheduled",
-   "venue": "kintetsu-abeno",
-   "price": null,
-   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611mens/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-10"
-  },
-  {
    "id": "kintetsu:/pages/202611_boulangerie/",
    "title": "パンの祭典",
    "category": "department_store",
@@ -25,46 +12,33 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611_boulangerie/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-10"
+   "confirmed": "2026-11-11"
   },
   {
    "id": "kintetsu:/harukas300conan/",
    "title": "名探偵コナンプラザ",
    "category": "department_store",
-   "start": "2026-11-10",
+   "start": "2026-11-11",
    "end": "2026-11-29",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://www.t-event.jp/harukas300conan/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-10"
+   "confirmed": "2026-11-11"
   },
   {
    "id": "kintetsu:/pages/202610oseibo/",
    "title": "2026近鉄 冬の贈りもの（近鉄のお歳暮）",
    "category": "department_store",
-   "start": "2026-11-10",
+   "start": "2026-11-11",
    "end": "2026-12-25",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610oseibo/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-10"
-  },
-  {
-   "id": "kintetsu:/pages/202611kagoshima/",
-   "title": "うんまか薩摩！鹿児島物産展",
-   "category": "department_store",
-   "start": "2026-11-04",
-   "end": "2026-11-10",
-   "status": "scheduled",
-   "venue": "kintetsu-abeno",
-   "price": null,
-   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611kagoshima/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-10"
+   "confirmed": "2026-11-11"
   },
   {
    "id": "kintetsu:/pages/202611food_treasure/",
@@ -77,7 +51,20 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611food_treasure/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-10"
+   "confirmed": "2026-11-11"
+  },
+  {
+   "id": "kintetsu:/pages/202611aomori_donan/",
+   "title": "青森✕道南 海峡グルメフェス",
+   "category": "department_store",
+   "start": "2026-11-18",
+   "end": "2026-11-24",
+   "status": "scheduled",
+   "venue": "kintetsu-abeno",
+   "price": null,
+   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611aomori_donan/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-11"
   }
  ]
 }
