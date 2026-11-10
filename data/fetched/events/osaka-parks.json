@@ -1,10 +1,58 @@
 {
  "venues": [
   {
+   "id": "opark:住吉公園",
+   "name": "住吉公園",
+   "lat": 34.61375,
+   "lon": 135.48764
+  },
+  {
+   "id": "opark:石川河川公園",
+   "name": "石川河川公園",
+   "lat": 34.5456,
+   "lon": 135.62131
+  },
+  {
    "id": "opark:浜寺公園",
    "name": "浜寺公園",
    "lat": 34.54496,
    "lon": 135.44385
+  },
+  {
+   "id": "opark:箕面公園",
+   "name": "箕面公園",
+   "lat": 34.8435,
+   "lon": 135.47006
+  },
+  {
+   "id": "opark:深北緑地",
+   "name": "深北緑地",
+   "lat": 34.72735,
+   "lon": 135.62875
+  },
+  {
+   "id": "opark:久宝寺緑地",
+   "name": "久宝寺緑地",
+   "lat": 34.63141,
+   "lon": 135.5788
+  },
+  {
+   "id": "opark:長野公園",
+   "name": "長野公園",
+   "lat": 34.44807,
+   "lon": 135.57449
+  },
+  {
+   "id": "opark:住之江公園",
+   "name": "住之江公園",
+   "lat": 34.60968,
+   "lon": 135.47462
+  },
+  {
+   "id": "opark:蜻蛉池公園",
+   "name": "蜻蛉池公園",
+   "lat": 34.4331,
+   "lon": 135.42403
   },
   {
    "id": "opark:枚岡公園",
@@ -17,6 +65,12 @@
    "name": "りんくう公園",
    "lat": 34.41192,
    "lon": 135.29394
+  },
+  {
+   "id": "opark:寝屋川公園",
+   "name": "寝屋川公園",
+   "lat": 34.76039,
+   "lon": 135.65222
   },
   {
    "id": "opark:大泉緑地",
@@ -35,177 +89,9 @@
    "name": "服部緑地",
    "lat": 34.77241,
    "lon": 135.48216
-  },
-  {
-   "id": "opark:寝屋川公園",
-   "name": "寝屋川公園",
-   "lat": 34.76039,
-   "lon": 135.65222
-  },
-  {
-   "id": "opark:住吉公園",
-   "name": "住吉公園",
-   "lat": 34.61375,
-   "lon": 135.48764
-  },
-  {
-   "id": "opark:石川河川公園",
-   "name": "石川河川公園",
-   "lat": 34.5456,
-   "lon": 135.62131
-  },
-  {
-   "id": "opark:久宝寺緑地",
-   "name": "久宝寺緑地",
-   "lat": 34.63141,
-   "lon": 135.5788
-  },
-  {
-   "id": "opark:長野公園",
-   "name": "長野公園",
-   "lat": 34.44807,
-   "lon": 135.57449
-  },
-  {
-   "id": "opark:蜻蛉池公園",
-   "name": "蜻蛉池公園",
-   "lat": 34.4331,
-   "lon": 135.42403
-  },
-  {
-   "id": "opark:深北緑地",
-   "name": "深北緑地",
-   "lat": 34.72735,
-   "lon": 135.62875
-  },
-  {
-   "id": "opark:住之江公園",
-   "name": "住之江公園",
-   "lat": 34.60968,
-   "lon": 135.47462
   }
  ],
  "events": [
-  {
-   "id": "opark:2026-09-12:浜寺公園:ナゾトキイベント「ぐわ兵衛とアソビ帝国」",
-   "venue": "opark:浜寺公園",
-   "title": "ナゾトキイベント「ぐわ兵衛とアソビ帝国」",
-   "category": "other",
-   "start": "2026-09-12",
-   "end": "2026-12-20",
-   "price": null,
-   "source": "https://hamadera.osaka-park.or.jp/event-information/%e3%83%8a%e3%82%be%e3%83%88%e3%82%ad%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%80%8c%e3%81%90%e3%82%8f%e5%85%b5%e8%a1%9b%e3%81%a8%e3%82%a2%e3%82%bd%e3%83%93%e5%b8%9d%e5%9b%bd%e3%80%8d/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-01:枚岡公園:デジタルスタンプラリーを開催します。",
-   "venue": "opark:枚岡公園",
-   "title": "デジタルスタンプラリーを開催します。",
-   "category": "other",
-   "start": "2026-11-01",
-   "end": "2026-11-30",
-   "price": null,
-   "source": "https://hiraoka.osaka-park.or.jp/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-03:りんくう公園:りんくう公園手作りバームクーヘン体験",
-   "venue": "opark:りんくう公園",
-   "title": "りんくう公園手作りバームクーヘン体験",
-   "category": "other",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "price": null,
-   "source": "https://rinku.osaka-park.or.jp/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-03:大泉緑地:香りを楽しむボタニカルアロマサシェ作り",
-   "venue": "opark:大泉緑地",
-   "title": "香りを楽しむボタニカルアロマサシェ作り",
-   "category": "other",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "price": null,
-   "source": "https://oizumi.osaka-park.or.jp/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-03:錦織公園:畑のクイズラリー",
-   "venue": "opark:錦織公園",
-   "title": "畑のクイズラリー",
-   "category": "other",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "price": null,
-   "source": "https://nishikori.osaka-park.or.jp",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-03:服部緑地:服部緑地ふれあい祭り",
-   "venue": "opark:服部緑地",
-   "title": "服部緑地ふれあい祭り",
-   "category": "festival",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "price": null,
-   "source": "https://hattori-ryokuchi.com/xo_event/fureai2025/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-03:寝屋川公園:第17回　寝屋川公園フェスティバル",
-   "venue": "opark:寝屋川公園",
-   "title": "第17回　寝屋川公園フェスティバル",
-   "category": "festival",
-   "start": "2026-11-03",
-   "end": "2026-11-03",
-   "price": null,
-   "source": "http://neyagawa.osaka-park.or.jp",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-07:服部緑地:m？li　m？lo　osaka（メリメロオーサカ）",
-   "venue": "opark:服部緑地",
-   "title": "m？li　m？lo　osaka（メリメロオーサカ）",
-   "category": "other",
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price": null,
-   "source": "https://www.melimelo-osaka.com/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-08:大泉緑地:水引結び体験",
-   "venue": "opark:大泉緑地",
-   "title": "水引結び体験",
-   "category": "other",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "price": null,
-   "source": "https://oizumi.osaka-park.or.jp/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-08:服部緑地:m？li　m？lo　osaka（メリメロオーサカ）",
-   "venue": "opark:服部緑地",
-   "title": "m？li　m？lo　osaka（メリメロオーサカ）",
-   "category": "other",
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "price": null,
-   "source": "https://www.melimelo-osaka.com/",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
   {
    "id": "opark:2026-11-10:住吉公園:ミニ植木鉢人形つくり",
    "venue": "opark:住吉公園",
@@ -216,7 +102,7 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-10:石川河川公園:パークゴルフ場月例コンペ11月度大会",
@@ -228,7 +114,43 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_facilities01",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-11:浜寺公園:浜寺モーニングストレッチ",
+   "venue": "opark:浜寺公園",
+   "title": "浜寺モーニングストレッチ",
+   "category": "other",
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "price": null,
+   "source": "https://hamadera.osaka-park.or.jp/event-information/%e3%83%a2%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%82%b9%e3%83%88%e3%83%ac%e3%83%83%e3%83%8111-11%e3%80%8111-25/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-14:箕面公園:2026秋のライトアップ（箕面大滝、滝道沿い他）",
+   "venue": "opark:箕面公園",
+   "title": "2026秋のライトアップ（箕面大滝、滝道沿い他）",
+   "category": "other",
+   "start": "2026-11-14",
+   "end": "2026-12-06",
+   "price": null,
+   "source": "https://www.mino-park.jp/event/art/1087/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-14:深北緑地:深北緑地　秋祭り",
+   "venue": "opark:深北緑地",
+   "title": "深北緑地　秋祭り",
+   "category": "festival",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "price": null,
+   "source": "https://fukakitaryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-14:久宝寺緑地:大阪ピンコロクラブ",
@@ -240,7 +162,7 @@
    "price": null,
    "source": "https://kyuhoji-ryokuchi.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-14:長野公園:延命寺　落語と珈琲",
@@ -252,7 +174,31 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/nagano_top",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-15:浜寺公園:ツリーイング体験　in　浜寺公園",
+   "venue": "opark:浜寺公園",
+   "title": "ツリーイング体験　in　浜寺公園",
+   "category": "other",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "price": null,
+   "source": "https://hamadera.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-15:住之江公園:イザ！カエルキャラバン！",
+   "venue": "opark:住之江公園",
+   "title": "イザ！カエルキャラバン！",
+   "category": "other",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/suminoe_event",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-15:蜻蛉池公園:ツリークライミング",
@@ -264,19 +210,7 @@
    "price": null,
    "source": "https://tonboike-osakap.com/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-15:深北緑地:園芸の日",
-   "venue": "opark:深北緑地",
-   "title": "園芸の日",
-   "category": "other",
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "price": null,
-   "source": "https://fukakitaryokuchi.jp",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-15:久宝寺緑地:みどり塾",
@@ -288,7 +222,7 @@
    "price": null,
    "source": "https://kyuhoji-ryokuchi.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-19:石川河川公園:石川自然クラブ",
@@ -300,19 +234,7 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_top",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
-  },
-  {
-   "id": "opark:2026-11-21:寝屋川公園:寝屋川公園・自然の会　KidsClub4　木の実工作",
-   "venue": "opark:寝屋川公園",
-   "title": "寝屋川公園・自然の会　KidsClub4　木の実工作",
-   "category": "other",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "price": null,
-   "source": "http://neyagawa.osaka-park.or.jp",
-   "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-22:枚岡公園:秋の生駒自然観察会",
@@ -324,7 +246,7 @@
    "price": null,
    "source": "https://hiraoka.osaka-park.or.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-22:久宝寺緑地:久宝寺こうえんマルシェ",
@@ -336,7 +258,7 @@
    "price": null,
    "source": "https://kyuhoji-marche.jimdofree.com/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-22:久宝寺緑地:公園インフォメーションワークショップ",
@@ -348,7 +270,7 @@
    "price": null,
    "source": "https://kyuhoji-ryokuchi.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-22:住之江公園:すみおとスプリングフェスタ×あいどる",
@@ -360,7 +282,19 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/suminoe_events",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-23:石川河川公園:秋の野草のXmasリースづくり",
+   "venue": "opark:石川河川公園",
+   "title": "秋の野草のXmasリースづくり",
+   "category": "other",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-23:りんくう公園:りんくう公園リラクゼーションヨガ",
@@ -372,7 +306,43 @@
    "price": null,
    "source": "https://rinku.osaka-park.or.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-25:浜寺公園:浜寺モーニングストレッチ",
+   "venue": "opark:浜寺公園",
+   "title": "浜寺モーニングストレッチ",
+   "category": "other",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "price": null,
+   "source": "https://hamadera.osaka-park.or.jp/event-information/%e3%83%a2%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e3%82%b9%e3%83%88%e3%83%ac%e3%83%83%e3%83%8111-11%e3%80%8111-25/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-27:りんくう公園:りんくう公園クリスマス飾り講習会（マーブルドリル）1回目",
+   "venue": "opark:りんくう公園",
+   "title": "りんくう公園クリスマス飾り講習会（マーブルドリル）1回目",
+   "category": "other",
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "price": null,
+   "source": "https://rinku.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-28:りんくう公園:りんくう公園クリスマス飾り講習会（マーブルドリル）2回目",
+   "venue": "opark:りんくう公園",
+   "title": "りんくう公園クリスマス飾り講習会（マーブルドリル）2回目",
+   "category": "other",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price": null,
+   "source": "https://rinku.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-28:住吉公園:すみすみマルシェ",
@@ -384,7 +354,7 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-28:久宝寺緑地:大阪ピンコロクラブ",
@@ -396,7 +366,7 @@
    "price": null,
    "source": "https://kyuhoji-ryokuchi.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-28:長野公園:クリスマスリースづくり",
@@ -408,7 +378,31 @@
    "price": null,
    "source": "https://www.toshi-kouen.jp/staticpages/index.php/nagano_top",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-28:寝屋川公園:寝屋川公園・自然の会　KidsClub4　木の実工作",
+   "venue": "opark:寝屋川公園",
+   "title": "寝屋川公園・自然の会　KidsClub4　木の実工作",
+   "category": "other",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price": null,
+   "source": "http://neyagawa.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-29:深北緑地:クリスマスリースづくり",
+   "venue": "opark:深北緑地",
+   "title": "クリスマスリースづくり",
+   "category": "other",
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "price": null,
+   "source": "https://fukakitaryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-29:久宝寺緑地:レッツ久宝探検隊",
@@ -420,7 +414,7 @@
    "price": null,
    "source": "https://kyuhoji-ryokuchi.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-29:大泉緑地:クリスマスのウォールパネル",
@@ -432,7 +426,7 @@
    "price": null,
    "source": "https://oizumi.osaka-park.or.jp/",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
   },
   {
    "id": "opark:2026-11-29:錦織公園:季節の寄せ植えづくり",
@@ -444,7 +438,643 @@
    "price": null,
    "source": "https://nishikori.osaka-park.or.jp",
    "sourceType": "opendata",
-   "confirmed": "2026-11-09"
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-11-30:りんくう公園:りんくう公園クリスマス飾り講習会（マーブルドリル）3回目",
+   "venue": "opark:りんくう公園",
+   "title": "りんくう公園クリスマス飾り講習会（マーブルドリル）3回目",
+   "category": "other",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "price": null,
+   "source": "https://rinku.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-01:りんくう公園:りんくう公園凧の無料貸出し",
+   "venue": "opark:りんくう公園",
+   "title": "りんくう公園凧の無料貸出し",
+   "category": "other",
+   "start": "2026-12-01",
+   "end": "2027-02-28",
+   "price": null,
+   "source": "https://rinku.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-01:寝屋川公園:寝屋川公園　キラ★キラ　イルミネーション",
+   "venue": "opark:寝屋川公園",
+   "title": "寝屋川公園　キラ★キラ　イルミネーション",
+   "category": "other",
+   "start": "2026-12-01",
+   "end": "2026-12-25",
+   "price": null,
+   "source": "http://neyagawa.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-02:大泉緑地:クリスマス風景写真展",
+   "venue": "opark:大泉緑地",
+   "title": "クリスマス風景写真展",
+   "category": "other",
+   "start": "2026-12-02",
+   "end": "2026-12-25",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/greenconsultation/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-05:蜻蛉池公園:木の実のリースづくり",
+   "venue": "opark:蜻蛉池公園",
+   "title": "木の実のリースづくり",
+   "category": "other",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "price": null,
+   "source": "https://tonboike-osakap.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-05:大泉緑地:親子で作る創作しめ縄講習会",
+   "venue": "opark:大泉緑地",
+   "title": "親子で作る創作しめ縄講習会",
+   "category": "other",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-05:久宝寺緑地:きらきらナイト×久宝寺こうえんマルシェ",
+   "venue": "opark:久宝寺緑地",
+   "title": "きらきらナイト×久宝寺こうえんマルシェ",
+   "category": "other",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-06:枚岡公園:クリスマスリース作り",
+   "venue": "opark:枚岡公園",
+   "title": "クリスマスリース作り",
+   "category": "other",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "price": null,
+   "source": "https://hiraoka.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-06:蜻蛉池公園:源流探検",
+   "venue": "opark:蜻蛉池公園",
+   "title": "源流探検",
+   "category": "other",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "price": null,
+   "source": "https://tonboike-osakap.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-06:深北緑地:深北の日",
+   "venue": "opark:深北緑地",
+   "title": "深北の日",
+   "category": "other",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "price": null,
+   "source": "https://fukakitaryokuchi.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-06:久宝寺緑地:ノルディックウォーク講習会",
+   "venue": "opark:久宝寺緑地",
+   "title": "ノルディックウォーク講習会",
+   "category": "other",
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-07:寝屋川公園:公園の四季を楽しむ散歩倶楽部　その6",
+   "venue": "opark:寝屋川公園",
+   "title": "公園の四季を楽しむ散歩倶楽部　その6",
+   "category": "other",
+   "start": "2026-12-07",
+   "end": "2026-12-07",
+   "price": null,
+   "source": "http://neyagawa.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-08:住吉公園:麻布のクリスマスリースつくり",
+   "venue": "opark:住吉公園",
+   "title": "麻布のクリスマスリースつくり",
+   "category": "other",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-08:石川河川公園:パークゴルフ場月例コンペ12月度大会",
+   "venue": "opark:石川河川公園",
+   "title": "パークゴルフ場月例コンペ12月度大会",
+   "category": "other",
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_facilities01",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-12:住之江公園:ウインタ－イルミネーション点灯",
+   "venue": "opark:住之江公園",
+   "title": "ウインタ－イルミネーション点灯",
+   "category": "other",
+   "start": "2026-12-12",
+   "end": "2027-01-10",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/suminoe_events",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-12:久宝寺緑地:大阪ピンコロクラブ",
+   "venue": "opark:久宝寺緑地",
+   "title": "大阪ピンコロクラブ",
+   "category": "other",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-12:服部緑地:ガレージセール",
+   "venue": "opark:服部緑地",
+   "title": "ガレージセール",
+   "category": "other",
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "price": null,
+   "source": "https://garagesale.co.jp/schedule/hattori_garagesale/?id=262",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-13:蜻蛉池公園:第二回　アサギマダラを呼ぼうプロジェクト",
+   "venue": "opark:蜻蛉池公園",
+   "title": "第二回　アサギマダラを呼ぼうプロジェクト",
+   "category": "other",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "price": null,
+   "source": "https://tonboike-osakap.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-13:住吉公園:親子しめ縄づくり",
+   "venue": "opark:住吉公園",
+   "title": "親子しめ縄づくり",
+   "category": "other",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-13:大泉緑地:ミニ熊手のお正月アレンジ",
+   "venue": "opark:大泉緑地",
+   "title": "ミニ熊手のお正月アレンジ",
+   "category": "other",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-13:住之江公園:ミュージックガ－デン",
+   "venue": "opark:住之江公園",
+   "title": "ミュージックガ－デン",
+   "category": "concert",
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/suminoe_events",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-15:久宝寺緑地:公園インフォメーションワークショップ",
+   "venue": "opark:久宝寺緑地",
+   "title": "公園インフォメーションワークショップ",
+   "category": "other",
+   "start": "2026-12-15",
+   "end": "2026-12-15",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-17:石川河川公園:石川自然クラブ",
+   "venue": "opark:石川河川公園",
+   "title": "石川自然クラブ",
+   "category": "other",
+   "start": "2026-12-17",
+   "end": "2026-12-17",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-19:蜻蛉池公園:サンタのお菓子配り",
+   "venue": "opark:蜻蛉池公園",
+   "title": "サンタのお菓子配り",
+   "category": "other",
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "price": null,
+   "source": "https://tonboike-osakap.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-19:錦織公園:森の実習隊",
+   "venue": "opark:錦織公園",
+   "title": "森の実習隊",
+   "category": "other",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "price": null,
+   "source": "https://nishikori.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-19:りんくう公園:りんくう公園お正月飾り講習会",
+   "venue": "opark:りんくう公園",
+   "title": "りんくう公園お正月飾り講習会",
+   "category": "other",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "price": null,
+   "source": "https://rinku.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-19:寝屋川公園:寝屋川公園キッズクラブ　その5　凧を作ろう",
+   "venue": "opark:寝屋川公園",
+   "title": "寝屋川公園キッズクラブ　その5　凧を作ろう",
+   "category": "other",
+   "start": "2026-12-19",
+   "end": "2026-12-19",
+   "price": null,
+   "source": "http://neyagawa.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-20:蜻蛉池公園:ミニ門松づくり",
+   "venue": "opark:蜻蛉池公園",
+   "title": "ミニ門松づくり",
+   "category": "other",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "price": null,
+   "source": "https://tonboike-osakap.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-20:深北緑地:園芸の日",
+   "venue": "opark:深北緑地",
+   "title": "園芸の日",
+   "category": "other",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "price": null,
+   "source": "https://fukakitaryokuchi.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-20:大泉緑地:お正月の寄せ植え",
+   "venue": "opark:大泉緑地",
+   "title": "お正月の寄せ植え",
+   "category": "other",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-20:久宝寺緑地:レッツ久宝探検隊",
+   "venue": "opark:久宝寺緑地",
+   "title": "レッツ久宝探検隊",
+   "category": "other",
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-26:枚岡公園:ミニ門松つくり",
+   "venue": "opark:枚岡公園",
+   "title": "ミニ門松つくり",
+   "category": "other",
+   "start": "2026-12-26",
+   "end": "2026-12-27",
+   "price": null,
+   "source": "https://hiraoka.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-26:錦織公園:小さな門松づくり",
+   "venue": "opark:錦織公園",
+   "title": "小さな門松づくり",
+   "category": "other",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "price": null,
+   "source": "https://nishikori.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-26:枚岡公園:ミニ門松を作ろう",
+   "venue": "opark:枚岡公園",
+   "title": "ミニ門松を作ろう",
+   "category": "other",
+   "start": "2026-12-26",
+   "end": "2026-12-27",
+   "price": null,
+   "source": "https://hiraoka.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2026-12-26:久宝寺緑地:大阪ピンコロクラブ",
+   "venue": "opark:久宝寺緑地",
+   "title": "大阪ピンコロクラブ",
+   "category": "other",
+   "start": "2026-12-26",
+   "end": "2026-12-26",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-04:石川河川公園:石川正月祭り～凧揚げ無料貸し出し～",
+   "venue": "opark:石川河川公園",
+   "title": "石川正月祭り～凧揚げ無料貸し出し～",
+   "category": "festival",
+   "start": "2027-01-04",
+   "end": "2027-01-15",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-09:服部緑地:あつまれ！わんダーランド",
+   "venue": "opark:服部緑地",
+   "title": "あつまれ！わんダーランド",
+   "category": "other",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "price": null,
+   "source": "https://www.instagram.com/wan.der_land/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-09:服部緑地:ウィークエンドマーケット",
+   "venue": "opark:服部緑地",
+   "title": "ウィークエンドマーケット",
+   "category": "market",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "price": null,
+   "source": "https://www.instagram.com/weekendmarket_osaka/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-09:久宝寺緑地:大阪ピンコロクラブ",
+   "venue": "opark:久宝寺緑地",
+   "title": "大阪ピンコロクラブ",
+   "category": "other",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-09:錦織公園:冬の野鳥観察会",
+   "venue": "opark:錦織公園",
+   "title": "冬の野鳥観察会",
+   "category": "other",
+   "start": "2027-01-09",
+   "end": "2027-01-09",
+   "price": null,
+   "source": "https://nishikori.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-10:服部緑地:あつまれ！わんダーランド",
+   "venue": "opark:服部緑地",
+   "title": "あつまれ！わんダーランド",
+   "category": "other",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "price": null,
+   "source": "https://www.instagram.com/wan.der_land/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-10:久宝寺緑地:ノルディックウォーク講習会",
+   "venue": "opark:久宝寺緑地",
+   "title": "ノルディックウォーク講習会",
+   "category": "other",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-10:大泉緑地:凧を作ってみんなで遊ぼう！",
+   "venue": "opark:大泉緑地",
+   "title": "凧を作ってみんなで遊ぼう！",
+   "category": "other",
+   "start": "2027-01-10",
+   "end": "2027-01-10",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-12:石川河川公園:パークゴルフ場月例コンペ1月度大会",
+   "venue": "opark:石川河川公園",
+   "title": "パークゴルフ場月例コンペ1月度大会",
+   "category": "other",
+   "start": "2027-01-12",
+   "end": "2027-01-12",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_facilities01",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-14:石川河川公園:石川自然クラブ",
+   "venue": "opark:石川河川公園",
+   "title": "石川自然クラブ",
+   "category": "other",
+   "start": "2027-01-14",
+   "end": "2027-01-14",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/ishikawa_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-16:錦織公園:森の実習隊",
+   "venue": "opark:錦織公園",
+   "title": "森の実習隊",
+   "category": "other",
+   "start": "2027-01-16",
+   "end": "2027-01-16",
+   "price": null,
+   "source": "https://nishikori.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-17:久宝寺緑地:みどり塾",
+   "venue": "opark:久宝寺緑地",
+   "title": "みどり塾",
+   "category": "other",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-17:大泉緑地:野鳥観察会",
+   "venue": "opark:大泉緑地",
+   "title": "野鳥観察会",
+   "category": "other",
+   "start": "2027-01-17",
+   "end": "2027-01-17",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-23:久宝寺緑地:大阪ピンコロクラブ",
+   "venue": "opark:久宝寺緑地",
+   "title": "大阪ピンコロクラブ",
+   "category": "other",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "price": null,
+   "source": "https://kyuhoji-ryokuchi.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-23:住吉公園:すみすみマルシェ",
+   "venue": "opark:住吉公園",
+   "title": "すみすみマルシェ",
+   "category": "other",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "price": null,
+   "source": "https://www.toshi-kouen.jp/staticpages/index.php/sumiyoshi_top",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-24:久宝寺緑地:久宝寺こうえんマルシェ",
+   "venue": "opark:久宝寺緑地",
+   "title": "久宝寺こうえんマルシェ",
+   "category": "other",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "price": null,
+   "source": "https://kyuhoji-marche.jimdofree.com/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-30:錦織公園:シイタケの菌打ち",
+   "venue": "opark:錦織公園",
+   "title": "シイタケの菌打ち",
+   "category": "other",
+   "start": "2027-01-30",
+   "end": "2027-01-30",
+   "price": null,
+   "source": "https://nishikori.osaka-park.or.jp",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
+  },
+  {
+   "id": "opark:2027-01-31:大泉緑地:苔のプリザで自然の風景づくり",
+   "venue": "opark:大泉緑地",
+   "title": "苔のプリザで自然の風景づくり",
+   "category": "other",
+   "start": "2027-01-31",
+   "end": "2027-01-31",
+   "price": null,
+   "source": "https://oizumi.osaka-park.or.jp/",
+   "sourceType": "opendata",
+   "confirmed": "2026-11-10"
   }
  ]
 }
