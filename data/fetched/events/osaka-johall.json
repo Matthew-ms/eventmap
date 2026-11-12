@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "johall:2026-11-11:ベストヒット歌謡祭2026",
-   "title": "ベストヒット歌謡祭2026",
-   "category": "concert",
-   "start": "2026-11-11",
-   "startTime": "19:00",
-   "status": "scheduled",
-   "venue": "osaka-johall",
-   "price": null,
-   "source": "https://www.ytv.co.jp/besthits/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-11"
-  },
-  {
    "id": "johall:2026-11-14:U-KNOW",
    "title": "U-KNOW",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/13343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-11"
+   "confirmed": "2026-11-12"
   },
   {
    "id": "johall:2026-11-15:U-KNOW",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/13343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-11"
+   "confirmed": "2026-11-12"
   },
   {
    "id": "johall:2026-11-18:米津玄師",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/11211",
    "sourceType": "scraped",
-   "confirmed": "2026-11-11"
+   "confirmed": "2026-11-12"
   },
   {
    "id": "johall:2026-11-19:米津玄師",
@@ -64,7 +51,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/11211",
    "sourceType": "scraped",
-   "confirmed": "2026-11-11"
+   "confirmed": "2026-11-12"
   }
  ]
 }
