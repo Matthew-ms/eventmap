@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-14"
+   "confirmed": "2026-11-15"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-14"
+   "confirmed": "2026-11-15"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,19 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-14"
-  },
-  {
-   "title": "メンズ・カフェ 「お茶」する？",
-   "category": "other",
-   "status": "scheduled",
-   "id": "rohm:153596:2026-11-14",
-   "start": "2026-11-14",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/153596/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-14"
+   "confirmed": "2026-11-15"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -62,20 +50,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-14"
-  },
-  {
-   "title": "マタヒバチ演劇公演「ハバカル」",
-   "category": "other",
-   "status": "scheduled",
-   "id": "rohm:157558",
-   "start": "2026-11-12",
-   "end": "2026-11-14",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/157558/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-14"
+   "confirmed": "2026-11-15"
   },
   {
    "title": "ASKA CONCERT TOUR 2026-2027 “Lock-on”",
@@ -88,7 +63,19 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/157560/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-14"
+   "confirmed": "2026-11-15"
+  },
+  {
+   "title": "Kùkilakila Hula Contest 2026 Kyoto",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:157566:2026-11-15",
+   "start": "2026-11-15",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/157566/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-15"
   }
  ]
 }
