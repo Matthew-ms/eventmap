@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "zepp:156904",
-   "title": "WATWING Zepp Live Tour「love」",
-   "category": "concert",
-   "start": "2026-11-15",
-   "startTime": "15:00",
-   "status": "scheduled",
-   "venue": "zepp-namba",
-   "price": null,
-   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=156904",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-15"
-  },
-  {
    "id": "zepp:165144",
    "title": "LIL LEAGUE's place \"ATELIER\" 2026",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165144",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:160144",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160144",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:159402",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159402",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:160792",
@@ -64,7 +51,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160792",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:165026",
@@ -77,7 +64,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165026",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:161142",
@@ -89,7 +76,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161142",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:161144",
@@ -101,7 +88,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161144",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:163249",
@@ -114,7 +101,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163249",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:159275",
@@ -127,7 +114,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159275",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162828",
@@ -140,7 +127,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162828",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:163382",
@@ -153,7 +140,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163382",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162086",
@@ -166,7 +153,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162086",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:159276",
@@ -179,7 +166,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159276",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:169791",
@@ -192,7 +179,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169791",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:161325",
@@ -205,7 +192,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161325",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162180",
@@ -218,7 +205,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162180",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:167444",
@@ -231,7 +218,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=167444",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:155886",
@@ -243,7 +230,44 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=155886",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
+  },
+  {
+   "id": "zepp:167412",
+   "title": "iLiVE! TOUR",
+   "category": "concert",
+   "start": "2026-12-15",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=167412",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-16"
+  },
+  {
+   "id": "zepp:169560",
+   "title": "CHANMINA New Album「LEGEND」Release Party",
+   "category": "concert",
+   "start": "2026-12-16",
+   "startTime": "18:00",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169560",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-16"
+  },
+  {
+   "id": "zepp:159280",
+   "title": "ON-GAE-SHI 2026 Winter in 大阪",
+   "category": "concert",
+   "start": "2026-12-20",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159280",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:153217",
@@ -256,7 +280,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=153217",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:161186",
@@ -268,7 +292,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161186",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162376",
@@ -281,7 +305,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162376",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162377",
@@ -294,7 +318,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162377",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:164121",
@@ -307,7 +331,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=164121",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162707",
@@ -320,7 +344,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162707",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:162688",
@@ -333,7 +357,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162688",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:161903",
@@ -345,7 +369,20 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161903",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
+  },
+  {
+   "id": "zepp:162586",
+   "title": "INCOGNITO JAPAN TOUR 2027",
+   "category": "concert",
+   "start": "2027-01-23",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162586",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:166700",
@@ -358,7 +395,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=166700",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   },
   {
    "id": "zepp:169621",
@@ -371,7 +408,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169621",
    "sourceType": "scraped",
-   "confirmed": "2026-11-15"
+   "confirmed": "2026-11-16"
   }
  ]
 }
