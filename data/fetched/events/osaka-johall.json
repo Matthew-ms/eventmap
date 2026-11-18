@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/11211",
    "sourceType": "scraped",
-   "confirmed": "2026-11-17"
+   "confirmed": "2026-11-18"
   },
   {
    "id": "johall:2026-11-19:米津玄師",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://kyodo-osaka.co.jp/search/detail/11211",
    "sourceType": "scraped",
-   "confirmed": "2026-11-17"
+   "confirmed": "2026-11-18"
   },
   {
    "id": "johall:2026-11-23:TOMOO",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://www.greens-corp.co.jp/schedule/info/index.php?event_id=13877",
    "sourceType": "scraped",
-   "confirmed": "2026-11-17"
+   "confirmed": "2026-11-18"
   },
   {
    "id": "johall:2026-11-25:GENERATIONS",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://www.sound-c.co.jp/schedule/detail/10079/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-17"
+   "confirmed": "2026-11-18"
   },
   {
    "id": "johall:2026-11-26:GENERATIONS",
@@ -64,7 +64,20 @@
    "price": null,
    "source": "https://www.sound-c.co.jp/schedule/detail/10079/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-17"
+   "confirmed": "2026-11-18"
+  },
+  {
+   "id": "johall:2026-11-28:矢沢永吉",
+   "title": "矢沢永吉",
+   "category": "concert",
+   "start": "2026-11-28",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "osaka-johall",
+   "price": null,
+   "source": "https://www.sogoosaka.com/live_information/detail/492",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-18"
   }
  ]
 }
