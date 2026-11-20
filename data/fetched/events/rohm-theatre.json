@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-19"
+   "confirmed": "2026-11-20"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-19"
+   "confirmed": "2026-11-20"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-19"
+   "confirmed": "2026-11-20"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -50,19 +50,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-19"
-  },
-  {
-   "title": "京都府戦没者遺族大会",
-   "category": "other",
-   "status": "scheduled",
-   "id": "rohm:160145:2026-11-19",
-   "start": "2026-11-19",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/160145/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-19"
+   "confirmed": "2026-11-20"
   },
   {
    "title": "国宝修理装潢師連盟 第30回定期研修会",
@@ -74,7 +62,19 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/158164/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-19"
+   "confirmed": "2026-11-20"
+  },
+  {
+   "title": "まらしぃ「幻想遊戯演奏会2026」",
+   "category": "concert",
+   "status": "scheduled",
+   "id": "rohm:159905:2026-11-21",
+   "start": "2026-11-21",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/159905/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-20"
   }
  ]
 }
