@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-21"
+   "confirmed": "2026-11-22"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-21"
+   "confirmed": "2026-11-22"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-21"
+   "confirmed": "2026-11-22"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -50,31 +50,31 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-21"
+   "confirmed": "2026-11-22"
   },
   {
-   "title": "まらしぃ「幻想遊戯演奏会2026」",
-   "category": "concert",
-   "status": "scheduled",
-   "id": "rohm:159905:2026-11-21",
-   "start": "2026-11-21",
-   "venue": "rohm-theatre",
-   "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/159905/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-21"
-  },
-  {
-   "title": "キーウ・クラシック・バレエ くるみ割り人形 ～全幕～",
+   "title": "2026年度 京都府教職員互助組合 公益事業 文化公演 「でんじろう先生のドキドキわくわくサイエンスショー2026」",
    "category": "other",
    "status": "scheduled",
-   "id": "rohm:151389:2026-11-21",
-   "start": "2026-11-21",
+   "id": "rohm:154482:2026-11-22",
+   "start": "2026-11-22",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/151389/",
+   "source": "https://rohmtheatrekyoto.jp/event/154482/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-21"
+   "confirmed": "2026-11-22"
+  },
+  {
+   "title": "関係者のみの催し",
+   "category": "other",
+   "status": "scheduled",
+   "id": "rohm:155196:2026-11-22",
+   "start": "2026-11-22",
+   "venue": "rohm-theatre",
+   "price": null,
+   "source": "https://rohmtheatrekyoto.jp/event/155196/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-22"
   }
  ]
 }
