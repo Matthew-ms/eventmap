@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "zepp:162228",
-   "title": "From AG! with Love 〜ライブハウスより愛を込めて〜",
-   "category": "concert",
-   "start": "2026-11-22",
-   "startTime": "17:00",
-   "status": "scheduled",
-   "venue": "zepp-osakabayside",
-   "price": null,
-   "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162228",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-22"
-  },
-  {
    "id": "zepp:157612",
    "title": "Zepp Tour 2026 \"View From The Soyuz\"",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=157612",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:159271",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=159271",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162293",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162293",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:163668",
@@ -64,7 +51,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=163668",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160329",
@@ -77,7 +64,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160329",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162761",
@@ -90,7 +77,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162761",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160660",
@@ -103,7 +90,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160660",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160099",
@@ -116,7 +103,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160099",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160879",
@@ -129,7 +116,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160879",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160880",
@@ -142,7 +129,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160880",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:167609",
@@ -155,7 +142,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=167609",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160186",
@@ -168,7 +155,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160186",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:163564",
@@ -181,7 +168,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=163564",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162881",
@@ -194,7 +181,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162881",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:164681",
@@ -207,7 +194,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=164681",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162653",
@@ -220,7 +207,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162653",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:159399",
@@ -233,7 +220,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=159399",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:160373",
@@ -246,7 +233,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=160373",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:165425",
@@ -259,7 +246,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=165425",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:165426",
@@ -272,7 +259,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=165426",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:167141",
@@ -285,7 +272,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=167141",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161562",
@@ -298,7 +285,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=161562",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:166915",
@@ -311,7 +298,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=166915",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:158286",
@@ -324,7 +311,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=158286",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162504",
@@ -337,7 +324,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162504",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162901",
@@ -350,7 +337,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162901",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:167119",
@@ -363,7 +350,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=167119",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:158442",
@@ -376,7 +363,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=158442",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:158443",
@@ -389,7 +376,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=158443",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161058",
@@ -402,7 +389,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=161058",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:169546",
@@ -415,7 +402,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=169546",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:169551",
@@ -428,7 +415,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=169551",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:163558",
@@ -441,7 +428,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=163558",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162845",
@@ -454,7 +441,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162845",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162465",
@@ -467,7 +454,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/osakabayside/schedule/single/?rid=162465",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   }
  ]
 }

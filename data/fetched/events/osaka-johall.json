@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://www.greens-corp.co.jp/schedule/info/index.php?event_id=13877",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "johall:2026-11-25:GENERATIONS",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://www.sound-c.co.jp/schedule/detail/10079/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "johall:2026-11-26:GENERATIONS",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://www.sound-c.co.jp/schedule/detail/10079/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "johall:2026-11-28:矢沢永吉",
@@ -51,7 +51,7 @@
    "price": null,
    "source": "https://www.sogoosaka.com/live_information/detail/492",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "johall:2026-11-29:矢沢永吉",
@@ -64,7 +64,7 @@
    "price": null,
    "source": "https://www.sogoosaka.com/live_information/detail/492",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   }
  ]
 }

@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "quattro:018411",
-   "title": "kobore",
-   "category": "concert",
-   "start": "2026-11-22",
-   "startTime": "17:30",
-   "status": "scheduled",
-   "venue": "quattro-umeda",
-   "price": null,
-   "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018411",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-22"
-  },
-  {
    "id": "quattro:018706",
    "title": "THE COLLECTORS",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018706",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018735",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018735",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018510",
@@ -51,7 +38,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018510",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018718",
@@ -63,7 +50,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018718",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018821",
@@ -76,7 +63,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018821",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018440",
@@ -89,7 +76,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018440",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018622",
@@ -102,7 +89,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018622",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018450",
@@ -115,7 +102,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018450",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018449",
@@ -128,7 +115,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018449",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018932",
@@ -141,7 +128,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018932",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018676",
@@ -154,7 +141,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018676",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018704",
@@ -167,7 +154,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018704",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018766",
@@ -180,7 +167,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018766",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018818",
@@ -193,7 +180,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018818",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018866",
@@ -206,7 +193,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018866",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018511",
@@ -219,7 +206,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018511",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018481",
@@ -232,7 +219,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018481",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018505",
@@ -245,7 +232,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018505",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018934",
@@ -258,7 +245,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018934",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018921",
@@ -271,7 +258,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018921",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018917",
@@ -284,7 +271,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018917",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018609",
@@ -297,7 +284,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018609",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018807",
@@ -310,7 +297,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018807",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018869",
@@ -323,7 +310,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018869",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018870",
@@ -336,7 +323,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018870",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018896",
@@ -349,7 +336,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018896",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018874",
@@ -362,7 +349,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018874",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018557",
@@ -375,7 +362,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018557",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018734",
@@ -388,7 +375,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018734",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018848",
@@ -401,7 +388,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018848",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018829",
@@ -414,7 +401,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018829",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018933",
@@ -427,7 +414,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018933",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018927",
@@ -440,7 +427,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018927",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018438",
@@ -453,7 +440,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018438",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018849",
@@ -466,7 +453,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018849",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018559",
@@ -479,7 +466,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018559",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018789",
@@ -492,7 +479,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018789",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018817",
@@ -505,7 +492,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018817",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018939",
@@ -518,7 +505,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018939",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018741",
@@ -531,7 +518,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018741",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "quattro:018749",
@@ -544,7 +531,7 @@
    "price": null,
    "source": "https://www.club-quattro.com/umeda/schedule/detail/?cd=018749",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   }
  ]
 }

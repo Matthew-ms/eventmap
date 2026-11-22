@@ -2,19 +2,6 @@
  "venues": [],
  "events": [
   {
-   "id": "zepp:159402",
-   "title": "Music Splash!!",
-   "category": "concert",
-   "start": "2026-11-22",
-   "startTime": "18:00",
-   "status": "scheduled",
-   "venue": "zepp-namba",
-   "price": null,
-   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159402",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-22"
-  },
-  {
    "id": "zepp:160792",
    "title": "丸山純奈 ONEMAN LIVE 2026",
    "category": "concert",
@@ -25,7 +12,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=160792",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:165026",
@@ -38,7 +25,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165026",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161142",
@@ -50,7 +37,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161142",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161144",
@@ -62,7 +49,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161144",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:163249",
@@ -75,7 +62,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163249",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:159275",
@@ -88,7 +75,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159275",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162828",
@@ -101,7 +88,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162828",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:163382",
@@ -114,7 +101,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=163382",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162086",
@@ -127,7 +114,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162086",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:159276",
@@ -140,7 +127,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159276",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:169791",
@@ -153,7 +140,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169791",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161325",
@@ -166,7 +153,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161325",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162180",
@@ -179,7 +166,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162180",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:167444",
@@ -192,7 +179,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=167444",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:155886",
@@ -204,7 +191,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=155886",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:167412",
@@ -216,7 +203,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=167412",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:169560",
@@ -229,7 +216,19 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169560",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
+  },
+  {
+   "id": "zepp:159279",
+   "title": "Japan Dancers’ Championship 2027 関西予選",
+   "category": "concert",
+   "start": "2026-12-19",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159279",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:159280",
@@ -241,7 +240,33 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=159280",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
+  },
+  {
+   "id": "zepp:168038",
+   "title": "2026 SUPER JUNIOR 83zFAN-CON TOUR [1983] IN JAPAN",
+   "category": "concert",
+   "start": "2026-12-22",
+   "startTime": "19:00",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=168038",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-23"
+  },
+  {
+   "id": "zepp:168039",
+   "title": "2026 SUPER JUNIOR 83zFAN-CON TOUR [1983] IN JAPAN",
+   "category": "concert",
+   "start": "2026-12-23",
+   "startTime": "18:30",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=168039",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:153217",
@@ -254,7 +279,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=153217",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161186",
@@ -266,7 +291,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161186",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162376",
@@ -279,7 +304,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162376",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162377",
@@ -292,7 +317,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162377",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:164121",
@@ -305,7 +330,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=164121",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:165659",
@@ -318,7 +343,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=165659",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162707",
@@ -331,7 +356,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162707",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162688",
@@ -344,7 +369,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162688",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161901",
@@ -357,7 +382,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161901",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161936",
@@ -370,7 +395,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161936",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161903",
@@ -382,7 +407,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161903",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:162586",
@@ -395,7 +420,20 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=162586",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
+  },
+  {
+   "id": "zepp:161919",
+   "title": "MONKEY MAJIK 20th Major Anniversary Tour 〜Thank You〜",
+   "category": "concert",
+   "start": "2027-01-24",
+   "startTime": "17:00",
+   "status": "scheduled",
+   "venue": "zepp-namba",
+   "price": null,
+   "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161919",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:166700",
@@ -408,7 +446,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=166700",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:169621",
@@ -421,7 +459,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=169621",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   },
   {
    "id": "zepp:161343",
@@ -434,7 +472,7 @@
    "price": null,
    "source": "https://www.zepp.co.jp/hall/namba/schedule/single/?rid=161343",
    "sourceType": "scraped",
-   "confirmed": "2026-11-22"
+   "confirmed": "2026-11-23"
   }
  ]
 }
