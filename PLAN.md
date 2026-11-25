@@ -3,6 +3,8 @@
 ## Status (update whenever a step finishes or the plan changes)
 Live site: https://matthew-ms.github.io/eventmap/ · repo: https://github.com/Matthew-ms/eventmap
 
+**⏸ Paused 2026-11-25.** The "Build and deploy" workflow is disabled on GitHub, so the nightly fetch and redeploy don't run, and pushes don't deploy. The live site stays up with its last build (dates will go stale). To resume: `gh workflow enable "Build and deploy"`, then `gh workflow run "Build and deploy"` for a fresh build.
+
 | Phase | State | Notes |
 |---|---|---|
 | A — Map and list view | ✅ Done 2026-10-13 | Seed: 15 recurring + 2 dated events at 6 venues. "Near me" not yet tested on a real phone (user to try). |
