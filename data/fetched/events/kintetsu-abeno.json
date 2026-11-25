@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611triumph/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/pages/202611rodents/",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611rodents/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/pages/202611school_fes/",
@@ -38,46 +38,59 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611school_fes/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
+  },
+  {
+   "id": "kintetsu:/pages/202612osaka_create/",
+   "title": "第11回 大阪クリエイトフェア",
+   "category": "department_store",
+   "start": "2026-12-02",
+   "end": "2026-12-08",
+   "status": "scheduled",
+   "venue": "kintetsu-abeno",
+   "price": null,
+   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202612osaka_create/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-25"
+  },
+  {
+   "id": "kintetsu:/pages/202612tabi_marche/",
+   "title": "旅する雑貨マルシェ",
+   "category": "department_store",
+   "start": "2026-12-02",
+   "end": "2026-12-08",
+   "status": "scheduled",
+   "venue": "kintetsu-abeno",
+   "price": null,
+   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202612tabi_marche/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/harukas300conan/",
    "title": "名探偵コナンプラザ",
    "category": "department_store",
-   "start": "2026-11-24",
+   "start": "2026-11-25",
    "end": "2026-11-29",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://www.t-event.jp/harukas300conan/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/pages/202610oseibo/",
    "title": "2026近鉄 冬の贈りもの（近鉄のお歳暮）",
    "category": "department_store",
-   "start": "2026-11-24",
+   "start": "2026-11-25",
    "end": "2026-12-25",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202610oseibo/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
-  },
-  {
-   "id": "kintetsu:/pages/202611aomori_donan/",
-   "title": "青森✕道南 海峡グルメフェス",
-   "category": "department_store",
-   "start": "2026-11-18",
-   "end": "2026-11-24",
-   "status": "scheduled",
-   "venue": "kintetsu-abeno",
-   "price": null,
-   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611aomori_donan/",
-   "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/pages/202611haitoku_gourmet/",
@@ -90,33 +103,46 @@
    "price": null,
    "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202611haitoku_gourmet/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
+  },
+  {
+   "id": "kintetsu:/pages/202612noren/",
+   "title": "第10回 ご縁に感謝！全国のれんの味",
+   "category": "department_store",
+   "start": "2026-12-02",
+   "end": "2026-12-08",
+   "status": "scheduled",
+   "venue": "kintetsu-abeno",
+   "price": null,
+   "source": "https://abenoharukas.d-kintetsu.co.jp/pages/202612noren/",
+   "sourceType": "scraped",
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/library/books/syokokumeika202611/book/",
    "title": "諸国銘菓 販売商品のご案内はこちら",
    "category": "department_store",
-   "start": "2026-11-24",
+   "start": "2026-11-25",
    "end": "9999-12-31",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://d-kintetsu.meclib.jp/library/books/syokokumeika202611/book/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "id": "kintetsu:/library/books/bimisaisai202611a/book/",
    "title": "美味彩々 限定販売カレンダーはこちら",
    "category": "department_store",
-   "start": "2026-11-24",
+   "start": "2026-11-25",
    "end": "9999-12-31",
    "status": "scheduled",
    "venue": "kintetsu-abeno",
    "price": null,
    "source": "https://d-kintetsu.meclib.jp/library/books/bimisaisai202611a/book/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   }
  ]
 }

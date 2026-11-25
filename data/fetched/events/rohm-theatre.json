@@ -12,7 +12,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145533/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "title": "tupera tupera （ツペラ ツペラ）10周年記念メインビジュアル原画展示",
@@ -25,7 +25,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/145850/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "title": "オペラの扉2026 ～ KNOCKING ON THE DOOR, OPERA EXHIBITION ～ 愛で人生は変わるのか「椿姫の世界展」",
@@ -38,7 +38,7 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/156394/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
    "title": "メンズ・カフェ 「お茶」する？",
@@ -50,31 +50,32 @@
    "price": null,
    "source": "https://rohmtheatrekyoto.jp/event/153596/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
-   "title": "第383回市民寄席",
+   "title": "金剛山歌劇団2026 메아리 希望のこだま",
    "category": "other",
    "status": "scheduled",
-   "id": "rohm:156315:2026-11-24",
-   "start": "2026-11-24",
+   "id": "rohm:160279:2026-11-25",
+   "start": "2026-11-25",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/156315/",
+   "source": "https://rohmtheatrekyoto.jp/event/160279/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   },
   {
-   "title": "こたけ正義感 弁論 2026",
-   "category": "other",
+   "title": "ひきこもりでもLIVEがしたい！ 〜Acoustic Live Tour 2026〜『叙情』",
+   "category": "concert",
    "status": "scheduled",
-   "id": "rohm:157574:2026-11-24",
-   "start": "2026-11-24",
+   "id": "rohm:157576",
+   "start": "2026-11-27",
+   "end": "2026-11-28",
    "venue": "rohm-theatre",
    "price": null,
-   "source": "https://rohmtheatrekyoto.jp/event/157574/",
+   "source": "https://rohmtheatrekyoto.jp/event/157576/",
    "sourceType": "scraped",
-   "confirmed": "2026-11-24"
+   "confirmed": "2026-11-25"
   }
  ]
 }
